@@ -1,0 +1,835 @@
+{
+	"navbar_generale": [
+		{
+			"fichier": "sommaire_html_css.html",
+			"image": "../Ressources_Test/Icones/html_plain_wordmark_logo_icon_146476.ico"
+		},
+		{
+			"fichier": "../02_JS/sommaire_js.html",
+			"image": "../Ressources_Test/Icones/javascript_icon_130900.ico"
+		},
+		{
+			"fichier": "index.html",
+			"image": "../Ressources_Test/Images/triforce.png"
+		},
+		{
+			"image": "../Ressources_Test/Icones/html_plain_wordmark_logo_icon_146476.ico"
+		},
+		{
+			"image": "../Ressources_Test/Icones/if-word-16-2875630_88220.ico"
+		}
+	],
+	"arbrescence_generale": [
+		{
+			"nom": "html",
+			"lien": "sommaire_html_css.html",
+			"image": "../Ressources_Test/Icones/html_plain_wordmark_logo_icon_146476.ico",
+			"deja_etudie": 1
+		},
+		{
+			"nom": "css",
+			"lien": "sommaire_html_css.html",
+			"image": "../Ressources_Test/Icones/css_plain_wordmark_logo_icon_146574.ico",
+			"deja_etudie": 1
+		},
+		{
+			"nom": "sites_utiles",
+			"lien": "",
+			"image": "../Ressources_Test/Icones/sourcetree_original_logo_icon_146336.ico",
+			"deja_etudie": 1
+		},
+		{
+			"nom": "git",
+			"lien": "sommaire_total_cda.html",
+			"image": "../Ressources_Test/Icones/git_plain_wordmark_logo_icon_146508.ico",
+			"deja_etudie": 1
+		},
+		{
+			"nom": "js",
+			"lien": "../02_JS/sommaire_js.html",
+			"image": "../Ressources_Test/Icones/javascript_icon_130900.ico",
+			"deja_etudie": 1
+		},
+		{
+			"nom": "bootrap",
+			"lien": "sommaire_html_css.html",
+			"image": "../Ressources_Test/Icones/bootstrap_plain_wordmark_logo_icon_146620.ico",
+			"deja_etudie": 1
+		},
+		{
+			"nom": "correction_moussa",
+			"lien": "sommaire_html_css.html",
+			"image": "../Ressources_Test/Icones/if-word-16-2875630_88220.ico",
+			"deja_etudie": 1
+		},
+		{
+			"nom": "ressources_test",
+			"lien": "sommaire_html_css.html",
+			"image": "../Ressources_Test/Icones/Kyo-Tux-Phuzion-Misc-Misc-Box.ico",
+			"deja_etudie": 1
+		},
+		{
+			"nom": "jquerry",
+			"lien": "",
+			"image": "../Ressources_Test/Icones/jquery_plain_wordmark_logo_icon_146445.ico",
+			"deja_etudie": 1
+		},
+		{
+			"nom": "ajax",
+			"lien": "",
+			"image": "../Ressources_Test/Icones/téléchargement.ico",
+			"deja_etudie": 1
+		},
+		{
+			"nom": "algo",
+			"lien": "../03_Algo/sommaire_algo.html",
+			"image": "../Ressources_Test/Icones/checklist_102320.ico",
+			"deja_etudie": 1
+		},
+		{
+			"nom": "mersise",
+			"lien": "",
+			"image": "../Ressources_Test/Icones/ob_45c694_merise.ico",
+			"deja_etudie": 0
+		},
+		{
+			"nom": "java",
+			"lien": "",
+			"image": "../Ressources_Test/Icones/java_trans.ico",
+			"deja_etudie": 0
+		},
+		{
+			"nom": "jsp",
+			"lien": "",
+			"image": "../Ressources_Test/Icones/file_type_jsp_icon_130498.ico",
+			"deja_etudie": 0
+		},
+		{
+			"nom": "servlet",
+			"lien": "",
+			"image": "../Ressources_Test/Icones/servlets.ico",
+			"deja_etudie": 0
+		},
+		{
+			"nom": "uml",
+			"lien": "",
+			"image": "../Ressources_Test/Icones/uml-tutorial.ico",
+			"deja_etudie": 0
+		},
+		{
+			"nom": "projet_back",
+			"lien": "",
+			"image": "../Ressources_Test/Icones/Terminal.ico",
+			"deja_etudie": 0
+		},
+		{
+			"nom": "architecture",
+			"lien": "",
+			"image": "../Ressources_Test/Icones/30156-iconebattle-maconfig_vista.ico",
+			"deja_etudie": 0
+		},
+		{
+			"nom": "mvc",
+			"lien": "",
+			"image": "../Ressources_Test/Icones/mvcnew.ico",
+			"deja_etudie": 0
+		},
+		{
+			"nom": "springboot",
+			"lien": "",
+			"image": "../Ressources_Test/Icones/spring-mvc-boot-application.ico",
+			"deja_etudie": 0
+		},
+		{
+			"nom": "angular",
+			"lien": "",
+			"image": "../Ressources_Test/Icones/angular_logo_icon_169595.ico",
+			"deja_etudie": 0
+		},
+		{
+			"nom": "projet_front",
+			"lien": "",
+			"image": "../Ressources_Test/Icones/21756-bubka-Paint_vista.ico",
+			"deja_etudie": 0
+		},
+		{
+			"nom": "XXXXXXX",
+			"lien": "",
+			"image": "../Ressources_Test/Icones/XXXXXXXXXXXX.ico",
+			"deja_etudie": 0
+		},
+		{
+			"nom": "XXXXXXX",
+			"lien": "",
+			"image": "../Ressources_Test/Icones/XXXXXXXXXXXX.ico",
+			"deja_etudie": 0
+		}
+	],
+	"liens_utiles": [
+		{
+			"nom": "Bootstrap",
+			"lien": "https://getbootstrap.com/docs/5.0/layout/grid/"
+		},
+		{
+			"nom": "Aide Mozilla Développeur",
+			"lien": "https://developer.mozilla.org/fr/docs/Web"
+		},
+		{
+			"nom": "Mon GitHub",
+			"lien": "https://github.com/CedricLopezCode?tab=repositories"
+		},
+		{
+			"nom": "GitHub Moussa",
+			"lien": "https://github.com/mouskito?tab=repositories"
+		},
+		{
+			"nom": "jQuerry",
+			"lien": "https://api.jquery.com/"
+		},
+		{
+			"nom": "DevDocs",
+			"lien": "https://devdocs.io/"
+		},
+		{
+			"nom": "API Open Data",
+			"lien": "https://www.data.gouv.fr/"
+		},
+		{
+			"nom": "API Météo",
+			"lien": "https://openweathermap.org/"
+		},
+		{
+			"nom": "Image Générique Vide",
+			"lien": "https://via.placeholder.com/200x200"
+		},
+		{
+			"nom": "HTML Nom des Couleurs",
+			"lien": "https://htmlcolorcodes.com/fr/noms-de-couleur/"
+		},
+		{
+			"nom": "HTML Code Couleurs",
+			"lien": "https://htmlcolorcodes.com/fr/"
+		}
+	],
+	"corrections": [
+		{
+			"nom": "XXXXXX",
+			"fichier": "XXXXXX"
+		},
+		{
+			"nom": "XXXXXX",
+			"fichier": "XXXXXX"
+		},
+		{
+			"nom": "XXXXXX",
+			"fichier": "XXXXXX"
+		},
+		{
+			"nom": "XXXXXX",
+			"fichier": "XXXXXX"
+		}
+	],
+	"navbar_dossier_html_css": [
+		{
+			"nom": "Architecture",
+			"fichier": "architecture.html",
+			"theme_de_revision": "Général"
+		},
+		{
+			"nom": "NavBar",
+			"fichier": "navbar.html",
+			"theme_de_revision": "Général"
+		},
+		{
+			"nom": "Footer",
+			"fichier": "footer.html",
+			"theme_de_revision": "Général"
+		},
+		{
+			"nom": "Listes",
+			"fichier": "listes.html",
+			"theme_de_revision": "HTML"
+		},
+		{
+			"nom": "Tableaux",
+			"fichier": "tableaux.html",
+			"theme_de_revision": "HTML"
+		},
+		{
+			"nom": "Medias",
+			"fichier": "medias.html",
+			"theme_de_revision": "HTML"
+		},
+		{
+			"nom": "Liens",
+			"fichier": "liens.html",
+			"theme_de_revision": "HTML"
+		},
+		{
+			"nom": "Formulaires",
+			"fichier": "formulaires.html",
+			"theme_de_revision": "HTML"
+		},
+		{
+			"nom": "Positions",
+			"fichier": "positions.html",
+			"theme_de_revision": "CSS"
+		},
+		{
+			"nom": "Effets",
+			"fichier": "effets.html",
+			"theme_de_revision": "CSS"
+		},
+		{
+			"nom": "Boostrap",
+			"fichier": "bootstrap.html",
+			"theme_de_revision": "CSS"
+		},
+		{
+			"nom": "Exo/TP",
+			"fichier": "exo_tp.html",
+			"theme_de_revision": "Cours"
+		}
+	],
+	"exos_html_css": [
+		{
+			"nom": "Image et CSS",
+			"fichier": "CLexoHTML1712.html",
+			"type": "exo"
+		},
+		{
+			"nom": "Tableaux 1",
+			"fichier": "cours1812.html",
+			"type": "exo"
+		},
+		{
+			"nom": "Tableaux 2",
+			"fichier": "exo1812.html",
+			"type": "exo"
+		},
+		{
+			"nom": "parents-enfant et hover rotate",
+			"fichier": "cours2112.html",
+			"type": "exo"
+		},
+		{
+			"nom": "Article Float 1",
+			"fichier": "cours2212.html",
+			"type": "exo"
+		},
+		{
+			"nom": "Article Float 2",
+			"fichier": "cours2312.html",
+			"type": "exo"
+		},
+		{
+			"nom": "Les Flex Vacances",
+			"fichier": "0601.html",
+			"type": "exo"
+		},
+		{
+			"nom": "Nav en Flex",
+			"fichier": "0701.html",
+			"type": "exo"
+		},
+		{
+			"nom": "Bootstrap",
+			"fichier": "test.html",
+			"type": "exo"
+		},
+		{
+			"nom": "Bootstrap DBZ",
+			"fichier": "exo_dbz.html",
+			"type": "exo"
+		},
+		{
+			"nom": "v1",
+			"fichier": "tp1.html",
+			"type": "tp 1"
+		},
+		{
+			"nom": "Index",
+			"fichier": "index.html",
+			"type": "tp 1"
+		},
+		{
+			"nom": "Test",
+			"fichier": "test.html",
+			"type": "tp 1"
+		},
+		{
+			"nom": "v2",
+			"fichier": "TP1/index.html",
+			"type": "tp 1"
+		},
+		{
+			"nom": "v1",
+			"fichier": "TP_voiture.html",
+			"type": "tp voiture"
+		},
+		{
+			"nom": "Multi-devices",
+			"fichier": "TP_voiture_device.html",
+			"type": "tp voiture"
+		},
+		{
+			"nom": "Flex",
+			"fichier": "TP_voiture_flex.html",
+			"type": "tp voiture"
+		},
+		{
+			"nom": "v1 image gant en bg",
+			"fichier": "tp_boxe.html",
+			"type": "tp boxe"
+		},
+		{
+			"nom": "v2 image normale",
+			"fichier": "tp_boxe_v2.html",
+			"type": "tp boxe"
+		},
+		{
+			"nom": "v3 avec dégradé",
+			"fichier": "tp_boxe_v3.html",
+			"type": "tp boxe"
+		},
+		{
+			"nom": "TP Afpa",
+			"fichier": "tp_afpa.html",
+			"type": "tp afpa"
+		}
+	],
+	"navbar_dossier_js": [
+		{
+			"nom": "Généralités",
+			"fichier": "generalites.html",
+			"theme_de_revision": "Les Bases"
+		},
+		{
+			"nom": "Conditions",
+			"fichier": "conditions.html",
+			"theme_de_revision": "Les Bases"
+		},
+		{
+			"nom": "Boucles",
+			"fichier": "boucles.html",
+			"theme_de_revision": "Les Bases"
+		},
+		{
+			"nom": "Tableaux",
+			"fichier": "tableaux.html",
+			"theme_de_revision": "JS Brut"
+		},
+		{
+			"nom": "Types",
+			"fichier": "types.html",
+			"theme_de_revision": "JS Brut"
+		},
+		{
+			"nom": "Objets",
+			"fichier": "objets.html",
+			"theme_de_revision": "JS Brut"
+		},
+		{
+			"nom": "Fonctions",
+			"fichier": "fonctions.html",
+			"theme_de_revision": "JS Brut"
+		},
+		{
+			"nom": "Selectors",
+			"fichier": "selectors.html",
+			"theme_de_revision": "JS Brut"
+		},
+		{
+			"nom": "Evenements",
+			"fichier": "evenements.html",
+			"theme_de_revision": "JS Brut"
+		},
+		{
+			"nom": "Nodes",
+			"fichier": "nodes.html",
+			"theme_de_revision": "JS Brut"
+		},
+		{
+			"nom": "Courant",
+			"fichier": "utilisation_courante.html",
+			"theme_de_revision": "JS Brut"
+		},
+		{
+			"nom": "jQuery",
+			"fichier": "jquery.html",
+			"theme_de_revision": "Les Aides"
+		},
+		{
+			"nom": "Ajax",
+			"fichier": "ajax.html",
+			"theme_de_revision": "Les Aides"
+		},
+		{
+			"nom": "Les Exos et TPs",
+			"fichier": "exo_tp_js.html",
+			"theme_de_revision": "Cours"
+		},
+		{
+			"nom": "Zone de Test",
+			"fichier": "zone_test_js.html",
+			"theme_de_revision": "Cours"
+		},
+		{
+			"nom": "XXXXXX",
+			"fichier": "XXXXXX.html",
+			"theme_de_revision": "XXXXXX"
+		},
+		{
+			"nom": "XXXXXX",
+			"fichier": "XXXXXX.html",
+			"theme_de_revision": "XXXXXX"
+		},
+		{
+			"nom": "XXXXXX",
+			"fichier": "XXXXXX.html",
+			"theme_de_revision": "XXXXXX"
+		},
+		{
+			"nom": "XXXXXX",
+			"fichier": "XXXXXX.html",
+			"theme_de_revision": "XXXXXX"
+		}
+	],
+	"exo_js": [
+		{
+			"nom": "Boucles",
+			"fichier": "boucles.js",
+			"type": "exo_js_pur"
+		},
+		{
+			"nom": "Numéro Public",
+			"fichier": "numeros_publics.js",
+			"type": "exo_js_pur"
+		},
+		{
+			"nom": "Tableaux",
+			"fichier": "tableaux.js",
+			"type": "exo_js_pur"
+		},
+		{
+			"nom": "Tables de Multiplication",
+			"fichier": "tables_de_multiplication.js",
+			"type": "exo_js_pur"
+		},
+		{
+			"nom": "Compte à Rebours",
+			"fichier": "compte_a_rebours.js",
+			"type": "exo_js_pur"
+		},
+		{
+			"nom": "Comparaison Chiffre",
+			"fichier": "1501.js",
+			"type": "exo_js_pur"
+		},
+		{
+			"nom": "Annee Bissextile",
+			"fichier": "annee_bissextile.js",
+			"type": "exo_js_pur"
+		},
+		{
+			"nom": "Nombres Premiers",
+			"fichier": "nombres_premiers.js",
+			"type": "exo_js_pur"
+		},
+		{
+			"nom": "Operations",
+			"fichier": "les_operations.js",
+			"type": "exo_js_pur"
+		},
+		{
+			"nom": "Tableaux 2",
+			"fichier": "exo_tableaux_2.js",
+			"type": "exo_js_pur"
+		},
+		{
+			"nom": "Tableaux 1",
+			"fichier": "exo_tableaux_1.html",
+			"type": "exo_js_html"
+		},
+		{
+			"nom": "Questions-Réponses",
+			"fichier": "questions_reponses.html",
+			"type": "exo_js_html"
+		},
+		{
+			"nom": "CSS en JS",
+			"fichier": "css_en_js.html",
+			"type": "exo_js_html"
+		},
+		{
+			"nom": "Calculatrice",
+			"fichier": "calculatrice.html",
+			"type": "exo_js_html"
+		},
+		{
+			"nom": "Vérif Formulaire",
+			"fichier": "verif_formulaire.html",
+			"type": "exo_js_html"
+		},
+		{
+			"nom": "Nom",
+			"fichier": "nom.html",
+			"type": "exo_js_html"
+		},
+		{
+			"nom": "Apparition Calculatrice",
+			"fichier": "calculatrice_apparait.html",
+			"type": "exo_js_html"
+		},
+		{
+			"nom": "Galerie Miniatures",
+			"fichier": "galerie.html",
+			"type": "exo_js_html"
+		},
+		{
+			"nom": "Bootstrap",
+			"fichier": "affichage_nom_calculatrice_galerie_bootstrap.html",
+			"type": "exo_js_html"
+		},
+		{
+			"nom": "TVA",
+			"fichier": "tva.html",
+			"type": "exo_js_html"
+		},
+		{
+			"nom": "TVA+Quantité",
+			"fichier": "tva_quantite.html",
+			"type": "exo_js_html"
+		},
+		{
+			"nom": "Choix Classe",
+			"fichier": "choix_eleve.html",
+			"type": "exo_js_html"
+		},
+		{
+			"nom": "Galerie jQuerry",
+			"fichier": "galeriej.html",
+			"type": "exo_jquery"
+		},
+		{
+			"nom": "Palindrome",
+			"fichier": "palindrome.html",
+			"type": "exo_jquery"
+		},
+		{
+			"nom": "IMC",
+			"fichier": "imc.html",
+			"type": "exo_jquery"
+		},
+		{
+			"nom": "Formulaire Contact",
+			"fichier": "form_contact.html",
+			"type": "exo_jquery"
+		},
+		{
+			"nom": "CRUD Liste Etudiants",
+			"fichier": "crud_liste_etudiants.html",
+			"type": "exo_jquery"
+		},
+		{
+			"nom": "Liste Etudiants Ajax",
+			"fichier": "liste_etudiant_ajax.html",
+			"type": "exo_jquery"
+		},
+		{
+			"nom": "API Meteo Entreprises",
+			"fichier": "meteo_entreprise.html",
+			"type": "exo_jquery"
+		},
+		{
+			"nom": "Panier",
+			"fichier": "panier.html",
+			"type": "exo_jquery"
+		},
+		{
+			"nom": "Panier CRUD",
+			"fichier": "panier_crud.html",
+			"type": "exo_jquery"
+		},
+		{
+			"nom": "Liste Etudiants",
+			"fichier": "liste_etudiants.html",
+			"type": "tp"
+		},
+	],
+	"navbar_dossier_algo": [
+		{
+			"nom": "Logiciel LARP",
+			"fichier": "",
+			"theme_de_revision": "Utilisation Logiciel"
+		},
+		{
+			"nom": "Boucles",
+			"fichier": "boucles_et_table_multiplication.larp",
+			"theme_de_revision": "Utilisation Logiciel"
+		},
+		{
+			"nom": "Tableaux",
+			"fichier": "tableau.larp",
+			"theme_de_revision": "Utilisation Logiciel"
+		},
+		{
+			"nom": "Fonctions",
+			"fichier": "fonctions.larp",
+			"theme_de_revision": "Utilisation Logiciel"
+		},
+		{
+			"nom": "Exos Sujet 1",
+			"fichier": "exos.pdf",
+			"theme_de_revision": "Exos Série 1"
+		},
+		{
+			"nom": "Carré",
+			"fichier": "exo1_carre.larp",
+			"theme_de_revision": "Exos Série 1"
+		},
+		{
+			"nom": "Bonjour Prénom",
+			"fichier": "exo2_boonjour_prenom.larp",
+			"theme_de_revision": "Exos Série 1"
+		},
+		{
+			"nom": "Panier Taxe",
+			"fichier": "exo3_panier_taxe.larp",
+			"theme_de_revision": "Exos Série 1"
+		},
+		{
+			"nom": "Positif ou Négatif",
+			"fichier": "exo4_6_positif_ou_pas.larp",
+			"theme_de_revision": "Exos Série 1"
+		},
+		{
+			"nom": "Produit Positif ou Négatif",
+			"fichier": "exo5_7_produit_positif_ou_pas.larp",
+			"theme_de_revision": "Exos Série 1"
+		},
+		{
+			"nom": "Catégories Sport",
+			"fichier": "exo8_categorie_sport.larp",
+			"theme_de_revision": "Exos Série 1"
+		},
+		{
+			"nom": "Dans 1min",
+			"fichier": "exo9_dans_1min.larp",
+			"theme_de_revision": "Exos Série 1"
+		},
+		{
+			"nom": "Dans 1s",
+			"fichier": "exo10_dans_1s.larp",
+			"theme_de_revision": "Exos Série 1"
+		},
+		{
+			"nom": "Exos Sujet 2",
+			"fichier": "exos_2.pdf",
+			"theme_de_revision": "Exos Série 2"
+		},
+		{
+			"nom": "Entre 10 et 20",
+			"fichier": "exobis1_entre10et20.larp",
+			"theme_de_revision": "Exos Série 2"
+		},
+		{
+			"nom": "Somme jusqu'à",
+			"fichier": "exobis2_somme_jusqua.larp",
+			"theme_de_revision": "Exos Série 2"
+		},
+		{
+			"nom": "Le plus grand parmi 20",
+			"fichier": "exobis3_leplusgrand.larp",
+			"theme_de_revision": "Exos Série 2"
+		},
+		{
+			"nom": "Les 10 Nombres Suivants",
+			"fichier": "exobis6_10nombres_suivant.larp",
+			"theme_de_revision": "Exos Série 2"
+		},
+		{
+			"nom": "Comptage Pair et Impair",
+			"fichier": "exobis7_comptagepair.larp",
+			"theme_de_revision": "Exos Série 2"
+		},
+		{
+			"nom": "Somme de Tout le Tableau",
+			"fichier": "exobis8_sommetableau.larp",
+			"theme_de_revision": "Exos Série 2"
+		},
+		{
+			"nom": "Photocopies",
+			"fichier": "exobis9_prix_decroissant.larp",
+			"theme_de_revision": "Exos Série 2"
+		},
+		{
+			"nom": "Imposable",
+			"fichier": "exobis10_immposable.larp",
+			"theme_de_revision": "Exos Série 2"
+		},
+		{
+			"nom": "Semaine",
+			"fichier": "exobis11_jours_semaine.larp",
+			"theme_de_revision": "Exos Série 2"
+		},
+		{
+			"nom": "Ordre Croissant",
+			"fichier": "exobis12_ordrecroissasnt.larp",
+			"theme_de_revision": "Exos Série 2"
+		},
+		{
+			"nom": "XXXXXX",
+			"fichier": "XXXXXX",
+			"theme_de_revision": "XXXXXXXXXXXXX"
+		}
+	],
+	"navbar_dossier_git": [
+		{
+			"nom": "XXXXXX",
+			"fichier": "XXXXXX"
+		},
+		{
+			"nom": "XXXXXX",
+			"fichier": "XXXXXX"
+		},
+		{
+			"nom": "XXXXXX",
+			"fichier": "XXXXXX"
+		},
+		{
+			"nom": "XXXXXX",
+			"fichier": "XXXXXX"
+		}
+	],
+	"navbar_dossier_java": [
+		{
+			"nom": "XXXXXX",
+			"fichier": "XXXXXX"
+		},
+		{
+			"nom": "XXXXXX",
+			"fichier": "XXXXXX"
+		},
+		{
+			"nom": "XXXXXX",
+			"fichier": "XXXXXX"
+		},
+		{
+			"nom": "XXXXXX",
+			"fichier": "XXXXXX"
+		}
+	],
+	"exo_js": [
+		{
+			"nom": "XXX",
+			"fichier": "XXXX.html",
+			"type": "XXXXXX"
+		},
+		{
+			"nom": "XXX",
+			"fichier": "XXXX.html",
+			"type": "XXXXXX"
+		}
+	]
+}
