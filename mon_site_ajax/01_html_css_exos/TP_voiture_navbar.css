@@ -1,0 +1,50 @@
+nav{
+	background: red;
+	text-align: center;
+}
+nav ul li{
+	display: inline-block;
+	padding: 20px;
+}
+nav ul li:hover{
+	background: green;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: yellow;
+}
+#logo{
+	height: auto;
+	position: absolute;
+	left: 10px;
+	top: 22px;
+}
+/*
+header{
+	background: red;
+	
+}
+
+nav{
+	display: flex;
+}
+nav ul li{
+	display: inline-flex;
+
+	font-size: 20px;
+	font-weight: bold;
+}
+nav ul{
+	display: inline-flex;
+	justify-content: space-around;
+}
+
+nav ul li:hover{
+	background: green;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: yellow;
+}*/

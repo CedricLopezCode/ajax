@@ -1,0 +1,24 @@
+
+table{
+	
+	font-size: 20px;
+	font-family: arial;
+	border: solid 2px;
+	padding: 5px;  
+	margin: 20px;	
+	
+}
+
+header{
+	font-size: 20px;
+}
+
+
+#Titre{color: blue;}
+#Auteur{color: red;}
+#Sujet{color: yellow;}
+#Date{color: green;}
+
+td,th = td et th
+
+body{text-align: center;}

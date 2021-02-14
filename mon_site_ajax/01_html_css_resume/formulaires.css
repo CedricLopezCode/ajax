@@ -1,0 +1,34 @@
+.conteneur{
+	width: 80%;
+	background: blue;
+	margin:auto;
+	padding: 10px;
+	color: white;
+}
+
+#formulaires{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 30px;
+	font-style: italic;
+}
+
+
+.formulaire_tableau label{
+	font-weight: bold;
+	font-size: 20px;
+	vertical-align: top;
+}
+
+.formulaire_tableau textarea{
+	max-width: 90%;
+}
+.formulaire_tableau label, .formulaire_tableau input, .formulaire_tableau textarea{
+	display: table;
+	margin: 10px 50px;
+}
+
+#barre_verticale{
+	transform: rotate(-90deg); 
+}

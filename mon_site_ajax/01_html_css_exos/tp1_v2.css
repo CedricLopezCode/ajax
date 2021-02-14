@@ -1,0 +1,37 @@
+
+ header{
+ 		 background:#582782;
+ 		  padding: 30px;
+
+
+
+ }
+body {
+
+	background:#206DBA;
+}
+
+
+
+nav {
+
+	background: yellow;
+	padding: 10px;
+}
+
+
+p  {
+
+	background: #582782;
+	padding: 10px;
+	color:white;
+	height: 460px;
+
+}
+
+
+footer {
+
+	background: blue;
+	padding: 30px;
+}
