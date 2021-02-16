@@ -1,8 +1,4 @@
 $(document).ready(function(){
-	$.get("html/navbar.html", function(data){
-		console.log(data);
-		$("header").append(data);
-	});
 
 	$("nav a").click(changer_contenu);
 

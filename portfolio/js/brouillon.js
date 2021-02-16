@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	$.get("html/navbar.html", function(data){
-		console.log(data);
 		$("header").append(data);
 	});
 
@@ -30,4 +29,8 @@ function changer_contenu(){
 function XXXXXXXXX(){
 	console.log("test");
 }
+
+
+
+
 
