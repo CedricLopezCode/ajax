@@ -4,11 +4,22 @@ body{
 	/*background-size: cover;*/
 }
 
-.separateur{
-	width: 100%;
-	height: 5px;
-	border-bottom: solid 5px red;
-	margin: 10px;
+#competences_informatique{
+	background: aqua;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#titre_competences_acquises, #titre_competences_futures{
+	font-weight: bold;
+	font-size: 40px;
+	color: red;
+}
+#titre_competences_acquises{
+
+}
+#titre_competences_futures{
+
 }
 #down_cv_pdf{
 	margin-bottom: 10px;

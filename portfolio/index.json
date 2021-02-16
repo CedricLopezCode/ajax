@@ -1,0 +1,136 @@
+{
+	"competences" : [
+		{
+			"skill": "html",
+			"maitrise": 100,
+			"image": "src_ico/html_plain_wordmark_logo_icon_146476.ico",
+			"deja_etudie": 1
+		},
+		{
+			"skill": "css",
+			"maitrise": 80,
+			"image": "src_ico/css_plain_wordmark_logo_icon_146574.ico",
+			"deja_etudie": 1
+		},
+		{
+			"skill": "git_hub",
+			"maitrise": 100,
+			"image": "src_ico/sourcetree_original_logo_icon_146336.ico",
+			"deja_etudie": 1
+		},
+		{
+			"skill": "git",
+			"maitrise": 70,
+			"image": "src_ico/git_plain_wordmark_logo_icon_146508.ico",
+			"deja_etudie": 1
+		},
+		{
+			"skill": "js",
+			"maitrise": 90,
+			"image": "src_ico/javascript_icon_130900.ico",
+			"deja_etudie": 1
+		},
+		{
+			"skill": "bootrap",
+			"maitrise": 100,
+			"image": "src_ico/bootstrap_plain_wordmark_logo_icon_146620.ico",
+			"deja_etudie": 1
+		},
+		{
+			"skill": "jquerry",
+			"maitrise": 80,
+			"image": "src_ico/jquery_plain_wordmark_logo_icon_146445.ico",
+			"deja_etudie": 1
+		},
+		{
+			"skill": "ajax",
+			"maitrise": 40,
+			"image": "src_ico/téléchargement.ico",
+			"deja_etudie": 1
+		},
+		{
+			"skill": "algo",
+			"maitrise": 100,
+			"image": "src_ico/checklist_102320.ico",
+			"deja_etudie": 1
+		},
+		{
+			"skill": "mersise",
+			"maitrise": 0,
+			"image": "src_ico/ob_45c694_merise.ico",
+			"deja_etudie": 0
+		},
+		{
+			"skill": "java",
+			"maitrise": 0,
+			"image": "src_ico/java_trans.ico",
+			"deja_etudie": 0
+		},
+		{
+			"skill": "jsp",
+			"maitrise": 0,
+			"image": "src_ico/file_type_jsp_icon_130498.ico",
+			"deja_etudie": 0
+		},
+		{
+			"skill": "servlet",
+			"maitrise": 0,
+			"image": "src_ico/servlets.ico",
+			"deja_etudie": 0
+		},
+		{
+			"skill": "uml",
+			"maitrise": 0,
+			"image": "src_ico/uml-tutorial.ico",
+			"deja_etudie": 0
+		},
+		{
+			"skill": "projet_back",
+			"maitrise": 0,
+			"image": "src_ico/Terminal.ico",
+			"deja_etudie": 0
+		},
+		{
+			"skill": "architecture",
+			"maitrise": 0,
+			"image": "src_ico/30156-iconebattle-maconfig_vista.ico",
+			"deja_etudie": 0
+		},
+		{
+			"skill": "mvc",
+			"maitrise": 0,
+			"image": "src_ico/mvcnew.ico",
+			"deja_etudie": 0
+		},
+		{
+			"skill": "springboot",
+			"maitrise": 0,
+			"image": "src_ico/spring-mvc-boot-application.ico",
+			"deja_etudie": 0
+		},
+		{
+			"skill": "angular",
+			"maitrise": 0,
+			"image": "src_ico/angular_logo_icon_169595.ico",
+			"deja_etudie": 0
+		},
+		{
+			"skill": "projet_front",
+			"maitrise": 0,
+			"image": "src_ico/21756-bubka-Paint_vista.ico",
+			"deja_etudie": 0
+		},
+		{
+			"skill": "XXXXXXX",
+			"maitrise": 0,
+			"image": "src_ico/XXXXXXXXXXXX.ico",
+			"deja_etudie": 0
+		},
+		{
+			"skill": "XXXXXXX",
+			"maitrise": 0,
+			"image": "src_ico/XXXXXXXXXXXX.ico",
+			"deja_etudie": 0
+		}
+	]
+}
