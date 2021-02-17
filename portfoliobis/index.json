@@ -55,18 +55,6 @@
 			"deja_etudie": 1
 		},
 		{
-			"skill": "c",
-			"maitrise": 50,
-			"image": "src_ico/file_type_cpp_icon_130670.ico",
-			"deja_etudie": 1
-		},
-		{
-			"skill": "kotlin",
-			"maitrise": 20,
-			"image": "src_ico/kotlin.ico",
-			"deja_etudie": 1
-		},
-		{
 			"skill": "mersise",
 			"maitrise": 0,
 			"image": "src_ico/ob_45c694_merise.ico",
@@ -131,6 +119,18 @@
 			"maitrise": 0,
 			"image": "src_ico/21756-bubka-Paint_vista.ico",
 			"deja_etudie": 0
+		},
+		{
+			"skill": "c",
+			"maitrise": 50,
+			"image": "src_ico/file_type_cpp_icon_130670.ico",
+			"deja_etudie": 1
+		},
+		{
+			"skill": "kotlin",
+			"maitrise": 20,
+			"image": "src_ico/kotlin.ico",
+			"deja_etudie": 1
 		}
 	]
 }

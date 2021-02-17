@@ -1,0 +1,33 @@
+body{
+	background-image: url(../src_ico/Arrioch-Senary-System-run.ico);
+	background-size: 200px;
+	/*background-size: cover;*/
+}
+
+#competences_informatique{
+	background: aqua;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#titre_competences_acquises, #titre_competences_futures{
+	font-weight: bold;
+	font-size: 40px;
+	color: red;
+}
+#titre_competences_acquises{
+
+}
+#titre_competences_futures{
+
+}
+#down_cv_pdf{
+	margin-bottom: 10px;
+}
+#down_cv_pdf a{
+	font-family: "Arial";
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+	text-decoration: none;
+}
