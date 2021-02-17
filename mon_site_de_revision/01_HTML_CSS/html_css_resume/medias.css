@@ -1,0 +1,61 @@
+.conteneur{
+	width: 70%;
+	background: blue;
+	margin:auto;
+	padding: 10px;
+	color: white;
+}
+
+#medias{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 30px;
+	font-style: italic;
+} 
+
+figure{
+	color: orange;
+	border: solid 1px;
+	border-color: green;
+	display: inline-block;
+}
+
+audio{width: 500px;}
+video{} /*Taille direct dans le html*/
+
+.conteneur img{
+	max-height: 300px;
+}
+
+article{
+	height: 300px;
+	margin: 2px;
+	border: solid 1px;
+}
+
+/*Les fonds d'écran*/
+#fond_cover{
+	background-image: url(../Ressources_Test/Images/facebook.png);		
+	background-size: cover; /*image agrandie sur toute la surface*/
+}
+
+#fond_repete{
+	background-image: url(../Ressources_Test/Images/twitter.png);
+	/*background-repeat: repeat; /*l'image répétée sur toute la surface, par défaut*/
+} 
+#fond_repete_rapetisse{
+	background-image: url(../Ressources_Test/Images/jeu_metroid.jpg);
+	background-size: 150px;
+}
+
+#fond_brut{
+	background-image: url(../Ressources_Test/Images/linkdin.png);
+	background-repeat: no-repeat; /*l'image n'est pas agrandi ni repetee*/
+} 
+
+#multi{ /*Plusieurs image superposé pour le meme fond*/   /*le 1er est au 1er plan*/
+	background-image: url(../Ressources_Test/Images/logo_one_piece.png), url(../Ressources_Test/Images/jeu_metroid.jpg); 
+	background-repeat: no-repeat; /*besoin car par defaut repeat*/
+} 
+

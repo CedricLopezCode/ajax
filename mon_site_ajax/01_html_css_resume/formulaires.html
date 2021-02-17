@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Les Formulaires</title>
+	<!-- Constant pour tous -->  
+	<link rel="icon" type="img/png" href="../Ressources_test/Images/triforce.png">
+	<link rel="stylesheet" type="text/css" href="../Ressources_test/Document/bootstrap.min.css">
+	<script type="text/javascript" src="../Ressources_Test/Document/bootstrap.min.js"></script>
+	<meta charset="utf-8">
+	<!-- A changer suivant les dossiers  --> <!-- Mais rajouter les ../ --> 
+	<link rel="stylesheet" type="text/css" href="../sommaire_total_cda.css">
+	<script type="text/javascript" src="../sommaire_total_cda.js"></script>
+	<!-- A changer pour chaque fichier  -->
+	<link rel="stylesheet" type="text/css" href="formulaires.css">
+	<script type="text/javascript" src="XXXXXXXXXXXXXXX.js"></script>
+	</title>
+</head>
+<body>
+	<header>
+	<nav id="nav_generale"><!-- Les noms  ou les icones-->
+		<a 
+			href="../sommaire_html_css.html">
+			<img src="../Ressources_Test/Icones/html_plain_wordmark_logo_icon_146476.ico">
+			<!--HTML/CSS -->
+		</a>
+		<a 
+			href="../../02_JS/sommaire_js.html">
+			<img src="../Ressources_Test/Icones/javascript_icon_130900.ico">
+			<!--JavaScript -->
+		</a>
+		<a id="logo_triforce"  
+			href="../sommaire_total_cda.html">
+			<img src="../Ressources_Test/Images/triforce.png">
+		</a>
+		<div class="interrupteur_et_liste" id="liens_utiles">
+			<img class="interrupteur_liste" src="../Ressources_Test/Icones/sourcetree_original_logo_icon_146336.ico">
+		    <div class="liste_a_faire_apparaitre">
+		    	<a href="https://via.placeholder.com/200x200"> Image Générique Vide	</a>
+				<a href="https://htmlcolorcodes.com/fr/noms-de-couleur/"> HTML Nom des Couleurs</a>
+				<a href="https://htmlcolorcodes.com/fr/"> HTML Code Couleurs	</a>
+				<a href="https://developer.mozilla.org/fr/docs/Web"> Aide Mozilla Développeur	</a>
+				<a href="https://github.com/CedricLopezCode?tab=repositories"> GitHub Cédric	</a>
+				<a href="https://github.com/mouskito?tab=repositories"> GitHub Moussa	</a>
+			</div>
+		</div>
+		<div class="interrupteur_et_liste" id="corrections_moussa">
+		    <img class="interrupteur_liste" src="../Ressources_Test/Icones/if-word-16-2875630_88220.ico">
+			<div class="liste_a_faire_apparaitre">
+		    	<a href="https://via.placeholder.com/200x200"> Image Générique Vide	</a>
+				<a href="https://htmlcolorcodes.com/fr/noms-de-couleur/"> HTML Nom des Couleurs</a>
+				<a href="https://htmlcolorcodes.com/fr/"> HTML Code Couleurs	</a>
+				<a href="https://developer.mozilla.org/fr/docs/Web"> Aide Mozilla Développeur	</a>
+				<a href="https://github.com/CedricLopezCode?tab=repositories"> GitHub Cédric	</a>
+				<a href="https://github.com/mouskito?tab=repositories"> GitHub Moussa	</a>
+			</div>
+		</div>
+	</nav>
+	<nav class="nav_partie_en_cours"><!-- Les noms  ou les icones-->	
+		<a href="architecture.html">Architecture</a>
+		<a href="navbar.html">NavBar</a>
+		<a href="footer.html">Footer</a>
+		<a href="listes.html">Listes</a>
+		<a href="tableaux.html">Tableaux</a>
+		<a href="medias.html">Medias</a>
+		<a href="liens.html">Liens</a>
+		<a href="formulaires.html">Formulaires</a>
+		<a href="positions.html">Positions</a>
+		<a href="effets.html">Effets</a>
+		<a href="bootstrap.html">Boostrap</a>
+		<a href="exo_tp.html">Exo/TP</a>
+	</nav>
+	</header>
+
+	<h1 class="titre_page"><span>Les Formulaires</span></h1>
+
+	<div class="conteneur">
+		<div id="formulaires">Les Formulaires</div>
+		<form>
+			<label>Nom</label>
+			<input type="text" name="nom" maxlength="5"> <!-- permet d'éviter les trop longs blablas-->
+		
+			<label>Password</label>
+			<input type="password" name="password" required> <!-- Pour dire que c'est obligatoire-->
+		
+			<label>Mail</label>
+			<input type="email" name="mail"> <!-- Oblige un @ au milieu -->
+
+			<label>Telephone</label>
+			<input type="tel" name="telephone" placeholder="Saisir un telephone"> <!-- placeholder met un message en fond pour dire quoi mettre ou un exemple -->
+
+			<label>Numero</label>
+			<input type="number" name="nombre">
+
+
+			<br><br>
+
+			<label>Recherche</label>
+			<input type="search" name="search">
+
+			<label>URL</label>
+			<input type="url" name="url">
+			<br><br>
+
+			<label>Anniv</label>
+			<input type="date" name="date">
+
+			<label>Checkbox avant</label>
+			<input type="checkbox" name="checkbox" class="carre_checkbox"> 
+			<input type="checkbox" name="checkbox" class="carre_checkbox" checked> <!-- Coché par défaut-->
+			<label>Checkbox après</label>
+			<label>Radio avant</label>
+			<input type="radio" name="radio" class="carre_radio"> 
+			<input type="radio" name="radio" class="carre_radio" checked> <!-- Coché par défaut-->
+			<label>Radio après</label>
+
+			<label>Couleur</label>
+			<input type="color" name="couleur">
+
+			<label>Range</label>
+			<input type="range" name="range">
+			<input type="range" min="54" max="856" step="10" id="barre_verticale"> <!-- Step = le pas entre 2 valeurs successives--><!-- Verticale en passant par le CSS et ATTENTION à la taille après-->
+
+			<select> <!-- Menu déroulantr pour faire un choix -->
+				<option>Liste déroulante</option>
+				<option>html</option>
+				<option>css</option>
+			</select>
+
+			<label>liste</label> <!-- Plutot un choix dans le formulaire, peu de chance d'etre utilisé-->
+			<input list="choix" name="liste">
+			<datalist id="choix">
+				<option>option 1</option>
+				<option>option 2</option>
+				<option>option 3</option>
+				<option>option 4</option>
+			</datalist>
+
+			<br>
+			<label>CV</label>
+			<input type="file" name="file">
+
+			<br><br> 
+			<textarea rows="10" cols="30">	</textarea>
+
+			<!-- <label>reset</label>  Label facultatif car écrit directement sur le bouton-->
+			<input type="reset" name="reset">
+
+			<input type="submit" name="submit" value="Envoyer"> <!-- pas besoin de label == balise button -->
+
+			<button>Bouton</button> <!-- Balise Bouton-->
+		</form>	
+
+		<hr>
+
+		<h3>Formulaire typique: </h3>
+		<div class="formulaire_tableau">
+			<form>
+				<label>Nom :</label>
+				<input type="text" name="nom" required>
+
+				<label>Prénom :</label>
+				<input type="text" name="prenom" required>
+
+				<label>Téléphone :</label>
+				<input type="tel" name="nom" required>
+
+				<label>Email :</label>
+				<input type="email" name="nom" required>
+
+				<label>Votre question: </label>
+				<textarea rows="10" cols="100" required></textarea>
+
+				<input type="submit" name="submit" value="Envoyer">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

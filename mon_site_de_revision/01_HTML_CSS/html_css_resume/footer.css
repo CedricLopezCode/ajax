@@ -1,0 +1,21 @@
+footer{
+	background: green;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#mention, #conditions{
+	display: inline-block;
+	max-width: 400px;
+}
+#vente article{
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px;
+}
+
+footer img{
+	margin: 10px;
+}

@@ -1,0 +1,47 @@
+body{
+	background-image: 
+}
+
+.conteneur{
+	width: 70%;
+	background: blue;
+	margin:auto;
+	padding: 10px;
+	color: white;
+}
+#bouton_accueil{
+	background: red;
+	margin: 10px;
+	padding: 10px;
+	color: yellow;
+	font-size: 40px;
+}
+
+#titre_page{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 30px;
+	font-style: italic;
+}
+
+#lignee{
+	background: orange; 
+}
+
+.domaines_de_revision a{
+	display: inline-block;
+	font-size: 40px;
+	text-decoration: none;
+	background: yellow;
+	border: solid 1px;
+	padding: 10px;
+	margin: 30px;
+	color: blue;
+}
+
+.domaines_de_revision a:hover{
+	background: red;
+	color: yellow;
+}
+

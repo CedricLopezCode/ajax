@@ -1,0 +1,69 @@
+.calculatrice {
+	background: blue; 
+	height: 200px; 
+	padding: 20px;
+}
+.disparu {
+	display: none;
+}
+#apparition_calculatrice{
+	text-decoration: none;
+	cursor: pointer;
+}
+#disparition_calculatrice{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/*
+#galerie_entiere{
+	display: inline-flex; 
+	height: 500px; 
+	justify-content: center; 
+	align-items: flex-start;
+}
+#grande_image {
+	display: inline-flex;
+}
+#petites_images{
+	display: inline-flex; 
+	flex-direction: column; 
+	justify-content: space-around; 
+	flex-wrap: wrap; 
+	align-items: flex-start;
+}
+#grande_image img{
+
+}
+#petites_images img{
+	width: 100px;
+}*/
+
+#petites_images{
+	width: 300px;
+	background: lime;
+	display: inline-flex;
+	flex-wrap: wrap;
+	position: relative;
+	top: -80px;
+}
+#article_grande_image{
+	display: inline-flex;
+	justify-content: center;
+	width: 70%;
+	height: auto;
+	padding-top: 0px;
+}
+#galerie_entiere{
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: stretch;
+	position: absolute;
+}
+
+#petites_images img{
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+}

@@ -1,0 +1,28 @@
+.conteneur{
+	width: 70%;
+	background: blue;
+	margin:auto;
+	padding: 10px;
+	color: white;
+}
+
+#titres{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 30px;
+	font-style: italic;
+}
+
+.conteneur a{
+	font-size: 30px;
+	text-decoration: none;
+	color: white;
+	margin: 0 30px;
+}
+
+span{
+	font-size: 30px;
+	color: orange;
+	font-weight: bold;
+}

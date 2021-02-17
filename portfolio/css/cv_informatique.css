@@ -1,0 +1,62 @@
+body{
+	background-image: url(../src_ico/Terminal.ico);
+	background-size: 200px;
+	/*background-size: cover;*/
+}
+.container{
+	padding: 20px;
+}
+#competences_informatique{
+	background: aqua;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#competences_informatique h1{
+	color: red;
+	font-weight: bold;
+	font-size: 40px;
+}
+#competences_informatique img{
+	z-index: 2;
+}
+.un_skill{
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+	margin: 10px;
+}
+.un_skill img{
+	position: absolute;
+	top: 50px;
+	max-width: 100px;
+}
+.un_skill canvas{
+
+
+}
+#liste_acquises, #liste_futures{
+	display: flex;
+	justify-content: space-around;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+#titre_competences_acquises, #titre_competences_futures{
+	font-weight: bold;
+	font-size: 40px;
+	color: orange;
+}
+
+#down_cv_pdf{
+	margin-bottom: 10px;
+}
+#down_cv_pdf a{
+	font-family: "Arial";
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+	text-decoration: none;
+}
+

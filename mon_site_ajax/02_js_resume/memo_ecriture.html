@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Memo JS</title>
+	<link rel="icon" href="../Ressources_Test/Images/icone_metroid.ico">
+	<script type="text/javascript" src="../Ressources_Test/Document/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../fonctions_redondantes.js"></script>
+
+
+
+
+	<script type="text/javascript">
+		console.log("Si je veux pas m'embeter à créer un fichier .js j'écris mon javascript entre les balises script dans le head comme je fais là");
+	</script>
+
+
+	
+	<script type="text/javascript" src="memo_ecriture.js"></script>
+</head>
+<body>
+	<a href="../sommaire.html">Acceuil JS</a>
+<!--   Mémo du C qui ressemble beaucoup
+#include <stdio.h> //permet d'afficher du texte à l'écran
+#include <stdlib.h>
+#include <time.h> //permet de lire l'heure
+#include <math.h>
+#include <string.h> //jouer sur les chaines de caracteres
+    #MACRO PREDEFINES
+__LINE__ numero de ligne (int)   //ATTENTION 2 riret_bas
+__FILE__ nom du fichier utilise (string)
+__DATE__ date de compilation du fichier utilise (string)
+__TIME__ heure de compilation du fichier utilise (string)
+//astuce permet d'eviter d'ecrire le #ifdefine a chaque fois si on utilise une macro beaucoup
+#ifdef DEBUG
+    #define MACRO(x, y) printf("[%s] : %s \t (%s \t ligne %d)\n", niveau, message, __FILE__, __LINE__)
+#else
+    #define MACRO(x, y) //Macro definie mais vide
+#endif
+// fonction main est la fonction principale de notre programme elle retourne 0 si tout se passe bien
+//   \ = caractère d'échappement
+int main()
+{
+    printf("\t\t\t Fonctions Utiles!\n\n");
+    //Déclaration variable
+const int /*type*/ CONSTANTE_ENTIERE;
+int variable_entier = 10, variable_tableau_entier[3] = {1,2,3}, tableu_multidim[2][3] = {{11,12,13},{21,22,23}}; //taille du tableau entre crochets
+float variable_decimale = 2.5; //point et pas virgule
+double tres_grand_nombre;
+char caractere = 'C' /*1 seul*/, chaine_de_caractere[] = "mot" /*2 guillemets*/, phrase[] = "un espace est un caractere"; //pas d'accent
+int* pointeur_vers_entier = &variable_entier; //etoile pour dire que c'est un pointeur et & dire que c'est une adresse
+static int variable_entier //permet de garder en memoire la derniere valeur obtenue dans une fonction pour la reutiliser plusieurs fois ou l'utiliser uniquement dans cette fonctioon et pas une autre
+enum CLASSE perso = CLASSE_PALADIN;
+enum CLASSE //dans .h
+{
+    SANS_CLASSE, //sous entendu 1er = 0 si pas de =
+    CLASSE_MAGE = 1,
+    CLASSE_GUERRIER //si pas de = alors increment de 1 de la valeur precedente de l'enum
+};
+    //Affichage Tableau
+printf("tableau [%d] = %c (%p)\n", valeur, tableau[i], &tableau[i]); //Version Tableau
+printf("tableau (%d) = %c (%p)\n", valeur, *(tableau+i), (tableau+i)); //Version Pointeur
+pointeur_tab =  (tableau+i); //Avec Pointeur
+printf("tableau  %d  = %c (%p)\n", valeur, *pointeur_tab, pointeur_tab); //Avec Pointeur
+    //Melange type
+struct st_personnage //dans le .h
+{
+    char nom[100];
+    int pv;
+    int pm;
+};
+    enum CLASSE perso = CLASSE_MAGE;
+    struct st_personnage mage = {"Merlin", 10, 125};
+    struct st_personnage paladin;
+    strcpy(paladin.nom, "Arthur");
+    paladin.pv = 30;
+    paladin.pm = 50;
+    struct st_personnage joueur = paladin;
+    printf("Mon personnage est de classe %d\n", perso);
+    printf("Mon personnage se nomme %s\n", mage.nom);
+    printf("Il me reste %d PV et %d PM\n", mage.pv, mage.pm);
+    printf("Mon personnage est de classe %d\n", CLASSE_PALADIN);
+    printf("Mon personnage se nomme %s\n", joueur.nom);
+    printf("Il me reste %d PV et %d PM\n", joueur.pv, joueur.pm);
+        //Interface
+printf("Texte\n"); // \t = Tabulation   \n = retour à la ligne
+printf("Entier %d Decimal %f caractere %c phrase %s\n", variable_entier, variable_decimale, caractere, phrase);
+sprintf("tableau, phrase"); // rempli le tableau avec la chaine de caractere de phrase  NE L'AFFICHE PAS
+scanf("%d", &variable); //pas oublier le &
+scanf("%s", &texte); //l'espace est compte comme \0 donc fin de chaine de caractere
+fflush(stdin); // à mettre avant le scanf pour eviter les espaces si plusieurs saisies à la fois (PS: Mastermind)   stdin = standard inpout = clavier (souris ?)
+scanf("%d%d", &variable, &variable);
+printf("pointeur pointe vers l'adresse hexadecimale %p qui contient la valeur %c\n", &pointeur_vers_entier, *pointeur_vers_entier); //%p hexadecimal, & adresse, * contenu
+printf("Taille : %d octets\n", sizeof(variable_entier));
+fgets(saisie_utilisateur, taille_max, stdin)//ATTENTION mettre le %s du printf à la fin car le entree en plus de valider créera un retour à la ligne dans le printf
+        #include <string.h>
+strlen(phrase) //retourne le nombre de caractere de phrase (en incluant les espaces et en excluant le \0 final)
+strchr(phrase, caractere) //retourne la premiere sous-chaine qui commence par caractere. C'est un POINTEUR Si absent retourne NULL
+strcmp(chaine1, chaine2) // = 0 si chaine1 = chaine2, = +1 si chaine1 avant chaine2 dans l'alphabet, = -1 si chaine1 apres chaine2 dans l'alphabet
+/*fonction equivalent
+char* chaine1 = &a_remplacer_1; //A REMPLACER
+char* chaine2 = &a_remplacer_2; //A REMPLACER
+switch (strcmp(chaine1, chaine2))
+    {
+        case 0:
+            printf("\"%s\" est identique a \"%s\"\n", chaine1, chaine2);
+        break;
+        case 1:
+            printf("\"%s\" est APRES \"%s\" dans l'alphabet\n", chaine1, chaine2);
+        break;
+        case -1:
+            printf("\"%s\" est AVANT \"%s\" dans l'alphabet\n", chaine1, chaine2);
+        break;
+    }*/
+strcpy(chaine_a_modifier, nouvelle_chaine); // chaine_a_modifier deviens nouvelle_chaine   ATTENTION A LA TAILLE
+strcat(chaine_a_modifier, sera_ajouter_derriere); //insere sera_ajouter_derriere derriere la chaine_a_modifier  concatenation ATTENTION A LA TAILLE
+strtol(chaine_qui_commence_par_le_nombre_a_extraire, NULL, 10);//extraction du premier nombre entier dans une chaine de caractere en base 10
+strtol(chaine_qui_commence_par_le_nombre_a_extraire, pt_fin, base);//determiner la position de la premiere lettre de la chaine de caractere
+strtod(chaine_qui_commence_par_le_nombre_a_extraire, NULL);//extraction du premier nombre decimal dans une chaine de caractere
+strtod(chaine_qui_commence_par_le_nombre_a_extraire, pt_fin);//determiner la position de la premiere lettre de la chaine de caractere
+strtol(strchr(chaine_a_analyser, ('premier_chiffre_du_nombre_a_trouver')), NULL, 10)//Si la chaine ne commence pas par le nombre en question
+strtod(strchr(chaine_a_analyser, ('premier_chiffre_du_nombre_a_trouver')), NULL)//Si la chaine ne commence pas par le nombre en question
+    // Conversion ASCII
+char lettre;
+printf("Entrez une lettre\n", lettre);
+scanf("%c", &lettre);
+printf("La lettre   %c   a une valeur de \n - %d en decimal \n - %x en hexadecimal \n", lettre, (int)lettre, lettre);
+    // generation d'un nombre aleatoire à base de l'heure (necessite time.h)
+srand(time(NULL));
+nombre_aleatoire = rand()
+    // generation d'un nombre aleatoire à base de l'heure (necessite time.h) entre MIN et MAX
+const int VALEUR_MIN = 1, VALEUR_MAX = 100;
+srand(time(NULL));
+nombre_aleatoire = (rand() % (VALEUR_MAX - VALEUR_MIN + 1)) + VALEUR_MIN;
+        //Math
+x % y //modulo = reste de la division 8 % 3 = 2
+x++ //incrementation de 1
+x-- // decrementation de 1
+x += y //veut dire x = x + y
+x -= y //veut dire x = x - y
+x *= y //veut dire x = x * y
+x /= y //veut dire x = x / y
+++ -- //Attention si cela est en prefixe ou en suffixe. En prefixe la modification se fera avant l'action de la ligne en question
+    #include <math.h>
+M_PI //= pi (pour les cercles)
+cos(x) //acos, asin...
+(int)fabs(x) // Valeur absolue      le (int) permet de ne pas afficher la virgule et des 0 apres
+(int)round(x)) //Arrondi            le (int) permet de ne pas afficher la virgule et des 0 apres
+(int)floor(x))//Entier inferieur    le (int) permet de ne pas afficher la virgule et des 0 apres
+(int)ceil(x) //Entier superieur     le (int) permet de ne pas afficher la virgule et des 0 apres
+(int)pow(x) //Puissance
+sqrt(x) //Racine Carre
+    // operateurs logiques
+Majorite != Minorite// ! veut dire different, l'opposé
+if (premiere_condition && seconde_condition) //  Il faut que les 2 soient vrai
+if (premiere_condition || seconde_condition) //  Il suffit que 1 soit vrai
+//Utiliser les parentheses pour les priorités si plusieurs
+    //Conditions
+(condition) ? valeur_si_vrai: valeur_si_faux ;
+if (condition)
+{
+}
+else
+{
+}
+// IF imbriqué
+if (premiere_condition)
+{
+}
+else if (seconde_condition) //si la premiere est fausse et donc on est passe dans le else)
+{
+}
+else //second else
+{
+}
+//SELON (ne gere pas les plages de valeurs seulement des valeurs fixes
+switch (variable)
+{
+    case 1: //pas de break donc fera aussi le case 2 à la suite
+    case 2:
+    break;
+    case 3:
+    break;
+    default: //tous les autres cas NE SURTOUT PAS OUBLIER
+    break;
+}
+    //Boucles
+// FOR pour le faire un nombre de fois determine
+for (int premier_nombre = 1; dernier_nombre <= 10 ; fois_nombre ++)
+{
+}
+//WHILE pour le faire mais on sait pas combien de fois en tout
+while (condition_de_repetition)
+{
+}
+// DO WHILE pour le faire au moins 1 fois mais on sait pas combien de fois en tout
+do
+{
+}
+while (condition_de_repetition);
+static void fonction //permet de faire la fonction uniquement dans le module en question
+    return 0;
+}
+-->
+
+</body>
+</html>

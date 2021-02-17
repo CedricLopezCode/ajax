@@ -1,0 +1,45 @@
+header{
+	
+	height: 50px;
+	top: 0;
+}
+nav{
+
+}
+
+
+footer{
+	padding-bottom: 50px;
+	bottom: 0;
+	display: inline;
+	border-bottom: 0;
+
+}
+
+header, footer{
+	color: white;
+	background: red;
+	position: fixed;
+	right: 0;
+	left: 0;
+}
+
+#suivre, address{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 15px;
+	text-align: center;
+}
+#suivre{text-align: center;}
+
+.ra{
+	border-radius: 50px;
+	margin: 10px;
+	background-image: white;
+}
+
+#facebook, #tweeter, #indeed, #annexe{
+	border-radius: 50px;
+	margin: 10px;
+	background-image: white;
+}

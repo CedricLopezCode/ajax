@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+	<link rel="icon" href="../Ressources_Test/Images/icone_metroid2.ico">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<meta charset="utf-8">
+</head>
+<body>
+<a href="../sommaire_js.html">Acceuil JS</a>   <br><br><br>
+<a href="../js_0_resume/exo_tp_js.html">Exos JS</a>
+
+<!--Partie identification-->
+<p>Bonjour <span id="nom_utilisateur"></span></p>
+
+<!--Partie Calculatrice-->
+<section class="container d-flex flex-column justify-content-center">
+	<h1 class="text-center">Calculatrice</h1>
+	<p class="d-flex justify-content-around">
+		<button type="button" class="btn btn-success mr-10" id="apparition_calculatrice">Apparition Calculatrice</button>
+			/      
+		<button type="button" class="btn btn-warning ml-10" id="disparition_calculatrice">Disparition Calculatrice</button>
+	</p>
+	<section id="calculatrice" class="">
+		<form style="display: flex;">
+		    <data class="mb-3" >
+		      <input  type="number" id="premier_nombre" class="form-control">
+		    </data>
+		    <data class="mb-3" style="min-width: 60px;">
+		      <select id="signe_operation" class="form-select">
+		        <option> + </option>
+				<option> - </option>
+				<option> * </option>
+				<option> / </option>
+				<option> % </option>
+		      </select>
+		    </data>
+		     <data class="mb-3">
+		      <input type="number" id="deuxieme_nombre" class="form-control">
+		    </data>
+		    <button type="submit" class="btn btn-primary" id="calculer">Calculer</button>
+		</form>
+		<div id="message_over" class="d-none" style="height: 40px; background: yellow; color: blue; padding: 5px;"></div>
+	</section>
+</section>
+
+<!--Partie Galerie-->
+<section class="container">
+	<h1 class="text-center">Galerie</h1>
+	<div class="row">
+		<article class="col-8 rounded-float-left" id="article_grande_image">
+			<img class="grande_image img-fluid" src="https://via.placeholder.com/200x200">
+		</article>
+		<article class="col-4 rounded-float-right d-flex justify-content-around flex-wrap align-content-between" id="petites_images">
+			<img class="miniatures" width="100px" height="100px" style="margin: 10px" src="../Ressources_Test/Images/equipage_one_piece.png">
+			<img class="miniatures" width="100px" height="100px" style="margin: 10px" src="../Ressources_Test/Images/jeu_metroid.jpg">
+			<img class="miniatures" width="100px" height="100px" style="margin: 10px" src="../Ressources_Test/Images/triforce.png">
+			<img class="miniatures" width="100px" height="100px" style="margin: 10px" src="../Ressources_Test/Images/metroid3.jpg">
+			<img class="miniatures" width="100px" height="100px" style="margin: 10px" src="../Ressources_Test/Images/samus.jpg">
+			<img class="miniatures" width="100px" height="100px" style="margin: 10px" src="../Ressources_Test/Images/metroid.jpg">
+			<img class="miniatures" width="100px" height="100px" style="margin: 10px" src="../Ressources_Test/Images/logo_metroid.jpg">
+			<img class="miniatures" width="100px" height="100px" style="margin: 10px" src="../Ressources_Test/Images/twitter.png">
+			<img class="miniatures" width="100px" height="100px" style="margin: 10px" src="../Ressources_Test/Images/logo_one_piece.png">
+			<img class="miniatures" width="100px" height="100px" style="margin: 10px" onclick="echange_src(this)" src="../Ressources_Test/Images/facebook.png">
+		</article>
+	</div>
+</section>
+
+
+<script type="text/javascript" src="affichage_nom_calculatrice_galerie.js"></script>
+</body>
+</html>

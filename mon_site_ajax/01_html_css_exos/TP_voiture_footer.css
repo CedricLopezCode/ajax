@@ -1,0 +1,50 @@
+footer{
+	vertical-align: bottom;
+	background: red;
+	text-align: center;
+}
+#mention, #conditions{
+	display: inline-block;
+	max-width: 400px;
+}
+#vente article{
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px;
+}
+
+@media only screen and (max-device-width: 320px){
+	footer{
+		vertical-align: text-bottom;
+	}
+	
+	#vente article{
+		display: inline-block;
+	}
+	#vente{
+		visibility: hidden;
+		height: 200px;
+	}
+	#vente figure{visibility: visible;}
+	#figure_mention{margin-left: 300px;}
+	#figure_conditions{margin-right: 250px;}
+
+
+	#vente:hover{
+		visibility: visible;
+		background: purple;
+		height: auto;
+	}
+	#vente:hover figure{
+		margin: 0 0 0 0;
+	}
+		
+
+}
+@media only screen and (min-device-width: 321px) and (max-device-width: 750px){}
+@media only screen and (min-device-width: 751px){
+	.affichage_article{
+		width: 32%;
+	}
+	body{background: grey;}
+}

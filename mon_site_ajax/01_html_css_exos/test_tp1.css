@@ -1,0 +1,32 @@
+header{
+	background:#B42BD0;
+	color:white;
+}
+
+footer{
+	background:blue;
+	color : white;
+}
+
+#div1{
+	background:yellow;
+	color:white;
+	padding-bottom:16px;
+}
+
+#div2{
+	background:#B42BD0;
+	border: solid 16px;
+	border-color:#2894A5;
+	color:white;
+	padding-bottom:128px;
+}
+
+header,#div1, #div2, footer {
+	margin-left:32px;
+	margin-right:128px;
+}
+
+header, footer {
+	padding-bottom:32px;
+}

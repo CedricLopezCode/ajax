@@ -1,0 +1,31 @@
+.conteneur{
+	width: 70%;
+	background: blue;
+	margin:auto;
+	padding: 10px;
+	color: white;
+}
+
+#tableaux{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 30px;
+	font-style: italic;
+}
+
+table{
+	border: solid 3px;
+	text-align: center;
+	border-collapse: collapse;
+}
+th, td{
+	border: solid 1px;
+}
+table th{
+	background: purple;
+}
+table td{
+	background: yellow;
+	color: black;
+}

@@ -1,0 +1,35 @@
+.conteneur{
+	width: 80%;
+	background: blue;
+	margin:auto;
+	padding: 10px;
+	color: white;
+}
+
+#titres{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 30px;
+	font-style: italic;
+}
+
+/*h1,h2,h3,h4,h5,h6{
+	display: inline;
+}*/
+
+#paragraphes{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 30px;
+	font-style: italic;
+}
+
+.conteneur nav{ /*Pour enlever les modif de la balise nav*/
+	text-align: left;
+	background: blue;
+}
+
+#beforeafter::before{content: "ceci est un before  "}
+#beforeafter::after{content: "  ceci est un after"}
