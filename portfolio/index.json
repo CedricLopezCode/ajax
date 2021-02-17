@@ -1,5 +1,5 @@
 {
-	"competences" : [
+	"competences" : [ 
 		{
 			"skill": "html",
 			"maitrise": 100,
@@ -75,7 +75,7 @@
 		{
 			"skill": "java",
 			"maitrise": 0,
-			"image": "src_ico/java_trans.ico",
+			"image": "src_ico/java_src_logo_icon_170556.ico",
 			"deja_etudie": 0
 		},
 		{

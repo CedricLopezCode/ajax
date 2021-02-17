@@ -10,7 +10,7 @@ nav{
 }
 nav a{
 	text-decoration: none;
-	color: aqua;
+	color: springgreen;
 	font-weight: bold;
 	font-size: 25px;
 }
@@ -20,7 +20,7 @@ nav a img{
 
 .page_active{
 	background: lime;
-	color: red;
+	color: green;
 }
 /*
 @media only screen and (max-device-width: 320px) {

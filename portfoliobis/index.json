@@ -1,5 +1,5 @@
 {
-	"competences" : [
+	"competences" : [ 
 		{
 			"skill": "html",
 			"maitrise": 100,
@@ -15,7 +15,7 @@
 		{
 			"skill": "git_hub",
 			"maitrise": 100,
-			"image": "src_ico/sourcetree_original_logo_icon_146336.ico",
+			"image": "src_ico/logo_github_icon_143196.ico",
 			"deja_etudie": 1
 		},
 		{
@@ -55,6 +55,18 @@
 			"deja_etudie": 1
 		},
 		{
+			"skill": "c",
+			"maitrise": 50,
+			"image": "src_ico/file_type_cpp_icon_130670.ico",
+			"deja_etudie": 1
+		},
+		{
+			"skill": "kotlin",
+			"maitrise": 20,
+			"image": "src_ico/kotlin.ico",
+			"deja_etudie": 1
+		},
+		{
 			"skill": "mersise",
 			"maitrise": 0,
 			"image": "src_ico/ob_45c694_merise.ico",
@@ -63,7 +75,7 @@
 		{
 			"skill": "java",
 			"maitrise": 0,
-			"image": "src_ico/java_trans.ico",
+			"image": "src_ico/java_src_logo_icon_170556.ico",
 			"deja_etudie": 0
 		},
 		{
@@ -85,18 +97,6 @@
 			"deja_etudie": 0
 		},
 		{
-			"skill": "projet_back",
-			"maitrise": 0,
-			"image": "src_ico/Terminal.ico",
-			"deja_etudie": 0
-		},
-		{
-			"skill": "architecture",
-			"maitrise": 0,
-			"image": "src_ico/30156-iconebattle-maconfig_vista.ico",
-			"deja_etudie": 0
-		},
-		{
 			"skill": "mvc",
 			"maitrise": 0,
 			"image": "src_ico/mvcnew.ico",
@@ -113,24 +113,6 @@
 			"maitrise": 0,
 			"image": "src_ico/angular_logo_icon_169595.ico",
 			"deja_etudie": 0
-		},
-		{
-			"skill": "projet_front",
-			"maitrise": 0,
-			"image": "src_ico/21756-bubka-Paint_vista.ico",
-			"deja_etudie": 0
-		},
-		{
-			"skill": "c",
-			"maitrise": 50,
-			"image": "src_ico/file_type_cpp_icon_130670.ico",
-			"deja_etudie": 1
-		},
-		{
-			"skill": "kotlin",
-			"maitrise": 20,
-			"image": "src_ico/kotlin.ico",
-			"deja_etudie": 1
 		}
 	]
 }

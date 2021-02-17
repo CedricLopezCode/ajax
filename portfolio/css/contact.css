@@ -10,23 +10,26 @@
 }
 .ou{
 	font-size: 40px;
-	color: blue;
+	color: lime;
 }
 .formulaire_de_contact{
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	align-items: center;
 	margin-bottom: 20px;
 }
-
 .formulaire_de_contact input{
 	margin-bottom: 10px;
-
+	max-width: 500px;
 }
 .formulaire_de_contact label{
 	margin-bottom: 5px;
 	font-size: 30px;
-	
+}
+.formulaire_de_contact textarea{
+	margin-bottom: 10px;
+	max-width: 600px;
 }
 #submit{
 	width: 100px;

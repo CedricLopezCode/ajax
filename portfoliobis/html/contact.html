@@ -1,4 +1,5 @@
-<link rel="stylesheet" type="text/css" href="css/contactez_moi.css">
+<link rel="stylesheet" type="text/css" href="css/contact.css">
+
 <section class="contacte">
 	<div class="moyen_de_contact">
 		<a
@@ -20,7 +21,7 @@
 		<input type="text" name="prenom" required>
 
 		<label>Téléphone :</label>
-		<input type="tel" name="nom" required>
+		<input type="num" name="nom" required>
 
 		<label>Email :</label>
 		<input type="email" name="nom" required>
@@ -28,6 +29,42 @@
 		<label>Votre message: </label>
 		<textarea rows="10" cols="100" required></textarea>
 
-		<input id="submit" class="btn btn-primary" type="submit" name="submit" value="Envoyer">
+		<input id="submit" class="btn btn-success" type="submit" name="submit" value="Envoyer">
 	</form>
+	<script type="text/javascript">
+		var formulaire = $("#formulaire_de_contact");
+		$(formulaire).submit(verif_formulaire);
+
+		function verif_formulaire(){
+			verif_input();
+			verif_textarea();
+			return false;
+		}
+		function verif_input(){
+			var les_inputs = $('input');
+			console.log(les_inputs);
+			for(var index = 0; index < les_inputs.length; index++){
+				$(les_inputs[index]).val() == ""? $(les_inputs[index]).css("background", "red") : $(les_inputs[index]).css("background", "lime");
+			}
+			verif_email();
+		}
+		function verif_email(){
+			var les_inputs = $('input');
+			var regex_email = /([a-zA-Z0-9\_\-\*\.\,\;\:\+])+\@([a-zA-Z0-9\_\-\*\.\,\;\:\+])+(\.)+([a-zA-Z])/;
+			console.log(regex_email.test($(les_inputs[3]).val()));
+			if(regex_email.test($(les_inputs[3]).val())){
+				$(les_inputs[3]).css("background", "lime");
+			}else if($(les_inputs[3]).val() == ""){
+				$(les_inputs[3]).css("background", "red");
+			}
+			else{
+				$(les_inputs[3]).css("background", "yellow");
+			}
+		}
+
+		function verif_textarea(){
+			var textarea = $('textarea');
+			$(textarea).val() == ""? $(textarea).css("background", "red") : $(textarea).css("background", "lime");
+		}
+	</script>
 </section>

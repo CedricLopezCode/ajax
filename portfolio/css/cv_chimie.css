@@ -9,20 +9,19 @@ body{
 	align-items: center;
 	font-size: 20px;
 	font-weight: bold;
-	color: blue;
+	color: chartreuse;
 }
 .titre_article{
 	font-size: 50px;
 	font-weight: bold;
-	color: red;
+	color: springgreen;
 }
-
 .titre_section{
 	margin: 20px 0;
 	text-align: center;
 	font-size: 30px;
 	font-weight: bold;
-	color: red;
+	color: yellow;
 }
 .un_travail{
 	display: flex;
@@ -33,13 +32,13 @@ body{
 	padding: 20px;
 }
 .nom_travail{
-	font-size: 25px;
+	font-size: 30px;
 	font-weight: bold;
-	color: green;
+	color: lime;
 	margin: 10px 0;
 }
 .lieu, .date{
-	color: steelblue;
+	color: mediumaquamarine;
 }
 .date{
 
@@ -51,28 +50,27 @@ body{
 }
 .description_generale_chimie{
 	margin-top: 10px;
-	background: blue;
-	color: white;
+	background-color: rgba(0, 128, 0, 0.95);
+	color: palegreen;
+	padding: 10px;
 }
-.stages_et_travail{
-	background: gold;
+.stages_et_travail, .diplomes_et_formations{
+	background-color: rgba(0, 128, 0, 0.95);
 }
-.diplomes_et_formations{
-	background: gold;
-}
+
 .separateur{
 	width: 100%;
 	height: 5px;
-	border-bottom: solid 5px red;
+	border-bottom: solid 5px lime;
 	margin: 10px;
 }
 #down_cv_pdf{
-	margin-bottom: 10px;
+	margin: 20px 0 20px;
 }
 #down_cv_pdf a{
 	font-family: "Arial";
-	font-size: 20px;
+	font-size: 40px;
 	font-weight: bold;
-	color: red;
+	color: yellow;
 	text-decoration: none;
 }

@@ -15,13 +15,13 @@ nav{
 	text-align: center;
 	flex-wrap: wrap;
 	height: auto;
-	padding: 5px;
 }
 nav a{
 	text-decoration: none;
-	color: aqua;
+	color: lawngreen;
 	font-weight: bold;
 	font-size: 25px;
+	padding: 5px;
 }
 nav a img{
 	width: 30px;
@@ -29,7 +29,7 @@ nav a img{
 
 .page_active{
 	background: lime;
-	color: red;
+	color: green;
 }
 /*
 @media only screen and (max-device-width: 320px) {
@@ -46,19 +46,24 @@ nav a img{
 	
 }*/
 /*----------------------------------------------------------------------*/
-.description_generale{
-	font-size: 30px;
-	font-weight: bold;
-	color: blue;
-}
 .description_generale h1{
+	margin: 100px 0 30px;
 	font-size: 50px;
 	font-weight: bold;
-	color: gold;
+	color: lime;
+}
+.description_generale{
+	font-size: 20px;
+	font-weight: bold;
+	color: chartreuse;
+}
+
+.container{
+	margin-bottom: 100px;
 }
 /*---------------------------Footer CSS-----------------------------------*/
 footer{
-	background: blue;
+	background: green;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -67,6 +72,7 @@ footer{
 	flex-wrap: wrap;
 	height: auto;
 	padding: 5px;
+	margin-top: 10px;
 }
 footer a{
 	text-decoration: none;
