@@ -1,0 +1,32 @@
+body{
+	background: black;
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
+input, textarea{
+	background: grey;
+	margin: 10px;
+}
+label
+input{
+	height: 400px;
+}
+form{
+	width: 80%;
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+}
+
+#message_envoi{
+	font-size: 50px;
+	font-weight: bold;
+	color: red;
+	text-align: center;
+	padding: 50px;
+}
+.mauvais{
+	background: aqua;
+}

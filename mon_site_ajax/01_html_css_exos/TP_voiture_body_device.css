@@ -1,0 +1,52 @@
+
+header img{width: 60px;}
+
+body{display: inline-block;}
+
+.affichage_article{
+	display: inline-block;
+	border: solid 1px;
+	padding: 2px;
+	background: gold;
+	margin-bottom: 10px;
+	vertical-align: all;
+}
+
+.affichage_article img{
+	float: top;
+	display: flex;
+	max-width: 90%;
+	min-height: 320px;
+	margin-left: auto; 
+	margin-right: auto;
+}
+.affichage_article table{
+	margin-left: 1px;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	color: blue;
+}
+/*media pour detecter l'appreil*/
+@media only screen and (max-device-width: 320px) { /*portable*/
+	.affichage_article{
+		width: all;
+	}
+	body{background: blue;}
+	nav li {visibility: hidden;}
+	nav:hover li {visibility: visible;}
+} 
+
+@media only screen and (min-device-width: 321px) and (max-device-width: 750px){ /*tablette*/
+	.affichage_article{
+		width: 49%;
+	}
+	body{background: green;}
+}
+@media only screen and (min-device-width: 751px) { /*ordi*/
+	.affichage_article{
+		width: 32%;
+	}
+}

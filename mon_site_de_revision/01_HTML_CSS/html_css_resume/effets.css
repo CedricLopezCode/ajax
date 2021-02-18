@@ -1,0 +1,52 @@
+.conteneur{
+	width: 70%;
+	background: blue;
+	margin:auto;
+	padding: 10px;
+	color: white;
+}
+
+#titres{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 30px;
+	font-style: italic;
+}
+
+/*caroussel*/
+#caroussel{
+	width: 250px;
+	overflow: hidden; /*pour cacher le cadre*/
+}
+#caroussel ul{
+	display: table; /* pour ressembler à un tableau*/
+	animation: 20s normal infinite slide;
+	width: calc(250px * 5); /*car 5 image*/
+}
+#caroussel ul li{
+	display: table-cell;
+}
+#caroussel img{
+}
+@keyframes slide{
+	0% 20%{ transform: translateX(0px); }
+	20%{ transform: translateX(-250px); }
+	40%{ transform: translateX(-500px); }
+	60%{ transform: translateX(-750px); }
+	80%{ transform: translateX(-1000px); }
+	100%{ transform: translateX(0px); }
+}
+
+
+#surbrillance{
+	font-size: 30px;
+	height: 70px;
+	text-align: center;
+	padding-top: 20px;
+}
+#surbrillance:hover{
+	background: red;
+	transition: 2s; /*pour que ca soit progressif*/
+	transform: scale(1.5); /*pour agrandir*/
+}

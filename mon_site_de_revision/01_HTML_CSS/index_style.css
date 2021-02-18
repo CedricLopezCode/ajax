@@ -1,0 +1,94 @@
+body{
+	background: black;
+	color: white;
+	margin: 10px;
+}
+
+header{text-align: center;}	
+
+#idunique{color: yellow;}
+.classunique{color: red;}
+.class p, .class div, .class data {color: red;} /*Pour modifier que les p div data qui sont dans la classe*/
+p .class, div .class, data .class {color: blue;} /*Pour modifier que les class qui sont dans p div ou data*/
+
+#metroid{
+	width: 160px;
+	height: 90px;
+}
+
+#gras{font-weight: bold;}
+#italique{font-style: italic;}
+#barré{text-decoration: line-through; }
+#petit{font-size: smaller;}
+#indice{font-variant-position: sub; font-size: smaller; position: sticky;}
+#exposant{font-variant-position: super; font-size: smaller;}
+#citation{quotes: "";}
+
+meter{width: 100px;}
+
+#modifcss{
+	font-style: italic;
+	font-size: 20px;
+	font-family: arial;
+	border: solid 2px;/*aussi dashed double groove ridge inset outset hidden/* 1px = standard */
+	border-radius: 50px; /*permet de changer la courbure des angles*/
+	border-color: red;
+	padding: 20px;  /* marge à l'interieur du block des 4 cote par defaut*/
+	margin: 10px;	/*marge à l'exterieur du block */
+	padding: 1 2 3 4; /* pour changer plusieurs fois la même valeur (bords dans un ordre précis) */
+}
+
+#modifcss,data,.classunique, #textrandom{background: green;} /*pour appliquer à plusieurs, mettre des virgule entre*/
+
+.unites_relatives{font-size: 5em} /*1em = 16px*/
+.unite_em{font-size: 50%}
+.unites_rem{font-size: 1rem} /*relative par rapport à la racine (la balise html)*/
+
+img{
+	width: 30px;
+	transition: 5s; /*pour que le changement de hover dure, pas trop brusque*/
+}
+img:hover{ /*balise:pseudo-classe: hover quand je passe dessus,focus met en avant le champs, first pour a 1ere lettre, last pour la deerniere lettre*/
+	padding: 10px;
+	background: red;
+	transform: rotate(100deg);
+}
+
+h1, h2, h3, h4, h5, h6 {display: inline;} /*ou block*/ /*Pour éviter le retour à la ligne*/ /*inline-block on peut varier la hauteur et largeur */
+
+nav{
+	display: inline-block; /*inline-block on peut varier la hauteur et largeur */
+	table-layout: table;
+	background: red;
+	width: 900px;
+	height: 40px;
+	display: table;
+	border-radius: 10px;
+	margin: bottom 20px;
+	position: fixed; /*la barre ne bouge pas de l'ecran meme quand on descend*/
+	/*par defaut position static*/
+	top: 0;
+	right: 0; /*position*/
+	left: 0;  /* right et left 0 donc prend toute la largeur*/
+}
+.case_menu{
+	display: table-cell; /*table-cell on le voit comme un tableau*/
+	vertical-align: middle;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold; 
+	transition: 2s;
+}
+.case_menu:hover{
+	background: yellow;
+	font-size: 30px;
+	height: 50px;
+}
+
+/*body{
+	background-image: url(https://via.placeholder.com/200x200);
+	background-repeat: no-repeat; l'image n'est pas agrandi ni repetee
+	background-size: cover; image agrandie sur toute la surface
+}*/
+
+#range{background: blue;}

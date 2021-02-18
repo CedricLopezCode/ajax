@@ -1,0 +1,95 @@
+.conteneur{
+	width: 70%;
+	background: blue;
+	margin:auto;
+	padding: 10px;
+	color: white;
+}
+
+#positions{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 30px;
+	font-style: italic;
+}
+
+.static{position: static;}
+.fixed{
+	position: fixed; /*ne bougera jamais*/
+	left: 0;
+	color: black;
+}
+.relative{
+	position: relative; /* ne sert à rien seule, sans absolue*/
+	top: 0;
+	right: 0;
+	background: yellow;
+}
+.absolue{
+	position: absolute; /*en fonction de la 1ere relative qu'il trouve en remontant*/
+	background: grey;
+}
+.sticky{
+	position: sticky; /*Fixed tant qu'on sort pas du parent*/
+	background: red;
+}
+
+
+
+.align{
+	display: flex;/*equivalent à inline-block*/ /*s'adapte à l'image*/
+
+} 
+.page_entiere{
+	display: inline-flex; /*pour pouvoir changer la hauteur*/
+}
+#serie2{background: skyblue;}
+
+.flexbox{
+	background: red;
+	display: flex;
+	flex: auto;
+}
+.flexbox div{
+	border: 2px solid;
+}
+.flexbox div:nth-child(2){ /*pseudo-elements n-ieme element uniquement sans id*/
+	border: 10px solid green;
+	width: 100px;
+}
+/*.flexbox{
+	display: flex; /*https://dev.to/joyshaheb/flexbox-cheat-sheets-in-2021-css-2021-3edl*/
+	/*flex: auto; /*quand 1 image plus grande dans la classe les autrs se partages l'espace restant*/
+	/*flex-direction: row; /*ligne*/ /*row-reverse = ligne en japonais*/
+	/*flex-direction: column; /*aligne en colonne*//*column-reverse aussi*/
+
+	/*justify-content: space-between; /*prend le maximum de place en espacant les elements*/
+	/*justify-content: space-around; /*met de l'espace autour*/
+	/*justify-content: space-evenly; /*met de l'espace autour avec plus d'espace autour*/
+	/*justify-content: flex-end; /*pour coller à droite*//*flex-start pour coller à gauche*/
+
+	/*align-content: center; /*comme justify-content*//*avec les memes valeurs mais dans l'axe perpendiculaire*/
+	/*align-content: stretch; /*agrandi les éléments pour qu'ils prennent toutes la hauteur de la flexbox après avoir fait le flex*/
+
+	/*align-items: center; /*à laquelle les éléments sont alignés dans l'axe perpendiculaire*/
+	/*align-items: stretch; /*tous les éléments prennent toutes la hauteur possibles*/
+	/*align-items: baseline; /*presque commme center mais plus compliqué*/
+
+	/*flex-wrap : nowrap; /*met sur 1 seule ligne*/
+	/*flex-wrap : wrap; /*fait des retour à la ligne*/
+
+/*}
+flexbox element{
+	/*flex-grow : 1; /*agrandi l'élément*/
+	/*flex-shrink : 1; /*rétréci l'élément*/
+/*}
+.flexbox div{
+	border: 2px solid;
+	width: 100px;
+}
+.flexbox div:nth-child(2){ /*pseudo-elements n-ieme element uniquement sans id*/
+/*	border: 10px solid;
+	width: 100px;
+}
+*/

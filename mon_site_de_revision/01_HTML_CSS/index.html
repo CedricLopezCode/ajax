@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head> <!-- permet pas de style dessus et ne se voit pas du tout dans la page -->
+	<!-- <link rel="icon" href="Ressources_Test/Images/icone_metroid2.ico">  Si déjà au format ico, si image alors ligne en dessous -->
+	<link rel="icon" type="image/png" href="Ressources_Test/Images/triforce.png"> <!-- icone de l'onglet -->
+	<title>Nom_de_l'onglet</title> 
+	<meta charset="utf-8"> <!-- permet les accents -->
+	<link rel="stylesheet" type="text/css" href="index_style.css"> <!-- les fichiers qu'ont va utiliser -->
+	<style type="text/css"></style>  <!-- permet du css directement -->
+</head>
+
+<body> <!-- = page visible -->	 
+
+	<!-- Architecture -->
+	<header>en-tête</header>
+	<nav>barre de nav</nav>
+	<nav>
+		<span class="case_menu" id="acceuil">Acceuil</span>
+		<span class="case_menu" id="nous">Qui sommes-nous</span>
+		<span class="case_menu" id="menu1">Menu</span>
+		<span class="case_menu" id="equipe">L'équipe</span>
+		<span class="case_menu" id="contacter">Nous contacter</span>
+	</nav> 
+	<article id="nomarticle">article</article> <!-- permet de changer le css article par article -->
+	<aside>sur les cotés donc pour la pub</aside>
+	<footer>bas de page</footer>
+	<div id="nomdeladiv">division = passage a la ligne avant et après</div>ffffff
+	<section>Section = passage a la ligne avant et après</section>eeeeeee
+	<p>paragraphe = saut de ligne avant et après</p>aaaaaa
+	<nav>nav</nav>ggggg
+	<center>centré</center>
+	<data>data = Bloc sans espace</data>hhhhh
+	<span>span = Bloc sans espace</span>vvvvvvv
+	<br> <!-- Saut de ligne Balise orpheline -->
+	<hr> <!-- Trait Horizontal Balise orpheline -->
+	
+	<!-- Formulaire-->
+	<form>
+		<label>Nom</label>
+		<input type="text" name="nom" maxlength="5"> <!-- type: text, email,password, date, number, range (barre),color, checkbox (case à cocher) -->
+	
+		<label>Password</label>
+		<input type="password" name="password" required> <!-- Pour dire que c'est obligatoire-->
+	
+		<label>Mail</label>
+		<input type="email" name="mail">
+
+		<label>Telephone</label>
+		<input type="tel" name="telephone">
+
+		<label>Numero</label>
+		<input type="number" name="nombre">
+
+		<br><br>
+
+		<label>Anniv</label>
+		<input type="date" name="date">
+
+		<label>Checkbox après</label>
+		<input type="checkbox" name="checkbox">
+		<input type="checkbox" name="checkbox">
+		<label>Checkbox avant</label>
+
+		<label>Couleur</label>
+		<input type="color" name="couleur">
+
+		<label>Range</label>
+		<input type="range" name="range" id="range">
+
+		<select> <!-- Menu déroulantr pour faire un choix -->
+			<option>Liste déroulante</option>
+			<option>html</option>
+			<option>css</option>
+		</select>
+
+		<br><br> 
+
+		<textarea rows="10" cols="30">	</textarea>
+
+		<label>reset</label> <!-- Label facultatif car écrit directement sur le bouton-->
+		<input type="reset" name="reset">
+
+		<input type="submit" name="submit" value="Ajouter"> <!-- pas besoin de label == balise button -->
+
+		<button>Bouton</button> <!-- Balise Bouton-->
+
+		
+	</form>	
+	<hr>
+
+	<!-- Nommage d'éléments pour les utiliser ailleurs -->
+	<section id="idunique"> Section identifiant unique pour l'appeler ailleurs </section> 
+	<section class="classunique plusieurs classes avec espace"> Section classe</section> <!--ma section appartient à 5 calsses différentes-->
+	<section class="classunique"> 1 classe = plusieurs éléments qui auront les mêmes changements appliqués</section>
+	<p class="class1">p dans class</p>
+	<data class="class1">p dans class</data>
+	<div class="class1">p dans class</div>
+
+
+	<hr>
+
+	<!-- Tableau -->
+
+	<table>
+		<caption>titre du tableau</caption>
+		<tfoot>bas de tableau</tfoot>
+		<th colspan="5"> va prendre 4 colonnes</th>
+		<tr>	<!-- les premier tr forment des colonnes -->
+			<th></th>
+			<th>Nom</th> <!-- th pour etre en gras -->
+			<th>prenom</th>
+			<th>adressee</th>
+			<th>tel</th>
+			<td>mail</td>
+		</tr>
+		<tr>
+			<th>nom des lignes</th>
+			<td>jdvjdvi</td> 
+			<td>sfg f</td>
+			<td>ghghgdg</td> <!-- pas obligé d'etre tous rempli -->
+		</tr>
+		<tr>
+			<th>en gras</th>
+			<td>sffg</td>
+			<td>sggg</td>
+			<td>gsfghfh</td>
+		</tr>
+	</table>
+		
+	<!--	<thead>en-tete</thead>
+	<tfoot>bas de tableau </tfoot>
+	<tbody>tbody</tbody>
+	<tr>ligne</tr>
+	<td>cellule</td>
+	<col>	-->
+	<hr>
+	<!-- Liste -->
+
+	<ol>
+		<li>Liste</li>	<!-- Balise li met devant chiffre si ol puce si ul -->
+		<li>numérotée</li>	<!-- Car balise li dans ol -->
+		<dt>decalée</dt>  <!-- Car dans ol -->
+	</ol>
+	<ul>
+		<li>Liste</li>
+		<li>pucée</li>	<!-- Car balise li -->
+		<dt>decalée</dt>  <!-- Car dans ul -->
+	</ul>
+	<dl>
+		<li>Liste</li> 
+		<dt>brute</dt>
+		<dt>au bord de l'écran</dt>
+	</dl>
+	<hr>
+	
+	<!-- Media -->
+
+	<img src="../Ressources_Test/Images/jeu_metroid.jpg" alt="metroid" id="metroid"> <!--alt = nom de l'image pour le referencement -->
+	<img src="https://via.placeholder.com/200x200">
+	
+	<audio controls>
+		<source src="../Ressources_Test/Audio/test_audio.mp3" type="audio/mp3">
+		<source src="../Ressources_Test/Audio/test_audio.aac" type="audio/aac"> <!-- Plusieurs sources possibles. Il prend la 1ère valide -->
+	</audio>
+
+	<video controls width="200">
+		<source src="../Ressources_Test/Video/video_test.mp4" type="video/mp4"> 
+		<source src="../Ressources_Test/Video/video_test.mime" type="video/mime"><!-- Plusieurs sources possibles. Il prend la 1ère valide -->
+		<source src="../Ressources_Test/Video/video_test.webm" type="video/webm">
+	</video>
+	
+	<map>map = zone cliquable avec area mais difficile à intégrer</map>
+
+	<hr>
+	<!-- Lien -->
+	<a href="https://www.afpa.fr/"> nom du lien externe	</a>        
+	<a href="lien_interne.html"> lien vers fichier = lien lien_interne</a>
+	<a href="mailto:mail_de_la_personne@mail.fr"> envoyer mail</a>
+	<a href="../Ressources_Test/Document/test_pdf.pdf"> lien_document</a>
+
+	<hr>
+
+	<!-- Menu -->
+	<datalist>liste deroulante</datalist>
+
+	<!-- Police par html directement puis via fichier css-->
+
+
+	<b>gras par html</b>    	
+	<i>italique par html</i>
+	<del>barré par html</del>
+	<small>petit par html</small>
+	<sub>indice par html</sub>
+	<sup>exposant par html</sup>
+	<cite>citation par html</cite>
+	<time>heure par html</time>
+	<meter>ligne blanche par html</meter> <!--longueur css-->
+	<br>
+	<data id="gras">gras par c s s</data>
+	<data id="italique">italique par c s s</data>
+	<data id="barré">barré par c s s</data>
+	<data id="petit">petit par c s s</data>
+	<data id="indice">indice par c s s</data>
+	<data id="exposant">exposant par c s s</data>
+	<data id="heure">heure par c s s</data>
+	<data id="ligneblanche">ligne blanche par c s s</data>
+	<br>
+	<span class="unites_relatives"> <!-- dans css-->
+		Je suis le parent
+		<span class="unite_em">
+			Je suis l'enfant en   em
+		</span>
+		<span class="unites_rem">
+			Je suis l'enfant en root-em
+		</span>
+	</span>
+	<br>
+	
+	<h1>H1</h1>
+	<h2>H2</h2>
+	<h3>H3</h3>
+	<h4>H4</h4> <!-- en pratique on utilise pas en dessous de 3 -->
+	<h5>H5</h5>
+	<h6>H6</h6>
+
+	<p 
+		id="modifcss">Paragraphe avec plein de modification par CSS
+		<a href="cours2212/cours2212.html">Page Multi-article CSS</a>
+	</p>
+	
+	Texte blabla: Lorem + Tab
+
+	<p id="textrandom">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</body>
+
+</html>

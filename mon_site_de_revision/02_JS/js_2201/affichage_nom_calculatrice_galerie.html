@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+	<link rel="icon" href="../Ressources_Test/Images/icone_metroid.ico">
+	<script type="text/javascript" src="../Ressources_Test/Document/bootstrap.min.js"></script>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="affichage_nom_calculatrice_galerie.css">
+</head>
+<body>
+<a href="../sommaire_js.html">Acceuil JS</a>   <br><br><br>
+<a href="../js_0_resume/exo_tp_js.html">Exos JS</a>
+
+<!--Partie identification-->
+<p>Bonjour <span id="nom_utilisateur"></span></p>
+
+<!--Partie Calculatrice-->
+<h1>Calculatrice</h1>
+<p>
+	<button id="apparition_calculatrice">Apparition Calculatrice</button> 
+	/
+	<button id="disparition_calculatrice">Disparition Calculatrice</button>
+</p>
+<section id="calculatrice" class="disparu">
+	<form >
+		<input type="number" name="premier_nombre" id="premier_nombre">
+		<select  id="signe_operation">
+			<option> + </option>
+			<option> - </option>
+			<option> * </option>
+			<option> / </option>
+			<option> % </option>
+		</select>
+		<input type="number" name="deuxieme_nombre" id="deuxieme_nombre">
+		<!--<input type="submit" name="submit" value="Calculer" id="submit">-->
+		<button id="calculer">Calculer</button>
+	</form>
+	<br>
+	<div id="message_over"></div>
+<!--<script type="text/javascript" src="../js_2001/calculatrice.js"></script>-->
+</section>
+
+
+<!--Partie Galerie-->
+<h1>Galerie</h1>
+<!--
+<section id="galerie_eniere">
+	<img id="grande_image" src="https://via.placeholder.com/200x200">
+	<article id="petites_images">
+		<img class="miniatures" src="../Ressources_Test/Images/equipage_one_piece.png">
+		<img class="miniatures" src="../Ressources_Test/Images/jeu_metroid.jpg">
+		<img class="miniatures" src="../Ressources_Test/Images/triforce.png">
+		<img class="miniatures" src="../Ressources_Test/Images/metroid3.jpg">
+		<img class="miniatures" src="../Ressources_Test/Images/samus.jpg">
+		<img class="miniatures" src="../Ressources_Test/Images/metroid.jpg">
+		<img class="miniatures" src="../Ressources_Test/Images/logo_metroid.jpg">
+		<img class="miniatures" src="../Ressources_Test/Images/logo_one_piece.png">
+		<img class="miniatures" src="../Ressources_Test/Images/twitter.png">
+		<img class="miniatures" src="../Ressources_Test/Images/facebook.png">
+	</article>
+</section>-->
+<section id="galerie_eniere">
+	<article id="article_grande_image">
+		<img class="grande_image" src="https://via.placeholder.com/200x200">
+	</article>
+	<article id="petites_images">
+		<img class="miniatures" onclick="echange_src(this)" src="../Ressources_Test/Images/equipage_one_piece.png">
+		<img class="miniatures" onclick="echange_src(this)" src="../Ressources_Test/Images/jeu_metroid.jpg">
+		<img class="miniatures" onclick="echange_src(this)" src="../Ressources_Test/Images/triforce.png">
+		<img class="miniatures" onclick="echange_src(this)" src="../Ressources_Test/Images/metroid3.jpg">
+		<img class="miniatures" onclick="echange_src(this)" src="../Ressources_Test/Images/samus.jpg">
+		<img class="miniatures" onclick="echange_src(this)" src="../Ressources_Test/Images/metroid.jpg">
+		<img class="miniatures" onclick="echange_src(this)" src="../Ressources_Test/Images/logo_metroid.jpg">
+		<img class="miniatures" onclick="echange_src(this)" src="../Ressources_Test/Images/twitter.png">
+		<img class="miniatures" onclick="echange_src(this)" src="../Ressources_Test/Images/logo_one_piece.png">
+		<img class="miniatures" onclick="echange_src(this)" src="../Ressources_Test/Images/facebook.png">
+	</article>
+</section>
+
+
+
+<script type="text/javascript" src="affichage_nom_calculatrice_galerie.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.unites_relatives{font-size: 5em} /*1em = 16px*/
+.unite_em{font-size: 50%}
+.unites_rem{font-size: 1rem} /*relative par rapport à la racine (la balise html)*/
+
+img{
+	width: 300px;
+	transition: 5s; /*pour que le changement de over dure, pas trop brusque*/
+}
+img:hover{ /*balise:pseudo-classe*/
+	/*hover quand je passe dessus*/
+	/*focus met en avant le champs*/
+	margin: 30px;
+	padding: 10px;
+	background: red;
+	transform: rotate(100deg);
+}

@@ -1,0 +1,57 @@
+.conteneur{
+	width: 70%;
+	background: blue;
+	margin:auto;
+	padding: 10px;
+	color: white;
+}
+#titres{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 30px;
+	font-style: italic;
+}
+
+
+
+#nav_liste{
+	background: green;
+	text-align: center;
+}
+#nav_liste ul li{
+	display: inline-block;
+	padding: 20px;
+}
+#nav_liste ul li a{
+	text-decoration: none; /*eliminer transformation comme la couleur des liens bleu-violet*/
+	color: white;
+	text-transform: uppercase; /*en majuscule*/
+}
+#nav_liste ul li:hover{background: red;}
+#nav_liste ul li a:hover{color: yellow;}
+
+
+#nav_flex{
+	background: green;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+	max-width: all;
+	flex-wrap: wrap;
+}
+#nav_flex a{
+	text-decoration: none;
+	text-transform: uppercase; /*en majuscule*/
+	color: white;
+	padding: 20px;
+}
+#nav_flex img{
+	width: 20px;
+	height: 20px;
+}
+#nav_flex a:hover{ 
+	background: red;
+	color: yellow;
+}

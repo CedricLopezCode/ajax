@@ -1,0 +1,33 @@
+body{
+	background: green;
+	color: white;
+	margin: 10;
+}
+
+th{
+	color: red;
+}
+
+footer{
+	background: blue
+}
+p{
+	
+	font-style: italic;
+	font-size: 20px;
+	font-family: arial;
+	border: solid 1px;
+	border-radius: solid 1px; anglearondi
+	padding: 2px;   marge à l'interieur du block des 4 cote par defaut
+	margin: 1px;	marge à l'exterieur du 
+	padding: 1 2 3 4;  par defaut haut bas gauche droite 
+
+}
+
+#id{
+	color:red;
+}
+
+.class{
+	color:red;
+}

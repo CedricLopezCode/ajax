@@ -1,0 +1,37 @@
+header{
+	font-size: 20px;
+	background: purple;
+	text-align: center;
+}
+
+body{
+	margin-top: 0px;
+	margin-left: 100px;
+	margin-right: 90px;
+	background: white;
+	color:white;
+	
+}
+.navigation{
+	background: yellow;
+	color: black;
+	font-size: 15px;
+	font-family: arial;
+	text-decoration: blue; 
+}
+article{
+	height: 500px;
+	background: purple;
+	
+}
+
+footer{
+	background: blue;
+	color: yellow;
+	height: 50px;
+}
+
+section{
+	background: #04DC84;
+	padding: 20px;
+}

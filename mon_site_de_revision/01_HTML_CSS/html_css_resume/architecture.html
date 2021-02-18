@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>L' Architecture</title>
+		<!-- Constant pour tous -->  
+	<link rel="icon" type="img/png" href="../Ressources_test/Images/triforce.png">
+	<link rel="stylesheet" type="text/css" href="../Ressources_test/Document/bootstrap.min.css">
+	<script type="text/javascript" src="../Ressources_Test/Document/bootstrap.min.js"></script>
+	<meta charset="utf-8">
+	<!-- A changer suivant les dossiers  --> <!-- Mais rajouter les ../ --> 
+	<link rel="stylesheet" type="text/css" href="../sommaire_total_cda.css">
+	<script type="text/javascript" src="../sommaire_total_cda.js"></script>
+	<!-- A changer pour chaque fichier  -->
+	<link rel="stylesheet" type="text/css" href="architecture.css">
+	<script type="text/javascript" src="architecture.js"></script>
+	</title>
+</head>
+<body>
+	<header>
+	<nav id="nav_generale"><!-- Les noms  ou les icones-->
+		<a 
+			href="../sommaire_html_css.html">
+			<img src="../Ressources_Test/Icones/html_plain_wordmark_logo_icon_146476.ico">
+			<!--HTML/CSS -->
+		</a>
+		<a 
+			href="../../02_JS/sommaire_js.html">
+			<img src="../Ressources_Test/Icones/javascript_icon_130900.ico">
+			<!--JavaScript -->
+		</a>
+		<a id="logo_triforce"  
+			href="../sommaire_total_cda.html">
+			<img src="../Ressources_Test/Images/triforce.png">
+		</a>
+		<div class="interrupteur_et_liste" id="liens_utiles">
+			<img class="interrupteur_liste" src="../Ressources_Test/Icones/sourcetree_original_logo_icon_146336.ico">
+		    <div class="liste_a_faire_apparaitre">
+		    	<a href="https://via.placeholder.com/200x200"> Image Générique Vide	</a>
+				<a href="https://htmlcolorcodes.com/fr/noms-de-couleur/"> HTML Nom des Couleurs</a>
+				<a href="https://htmlcolorcodes.com/fr/"> HTML Code Couleurs	</a>
+				<a href="https://developer.mozilla.org/fr/docs/Web"> Aide Mozilla Développeur	</a>
+				<a href="https://github.com/CedricLopezCode?tab=repositories"> GitHub Cédric	</a>
+				<a href="https://github.com/mouskito?tab=repositories"> GitHub Moussa	</a>
+			</div>
+		</div>
+		<div class="interrupteur_et_liste" id="corrections_moussa">
+		    <img class="interrupteur_liste" src="../Ressources_Test/Icones/if-word-16-2875630_88220.ico">
+			<div class="liste_a_faire_apparaitre">
+		    	<a href="https://via.placeholder.com/200x200"> Image Générique Vide	</a>
+				<a href="https://htmlcolorcodes.com/fr/noms-de-couleur/"> HTML Nom des Couleurs</a>
+				<a href="https://htmlcolorcodes.com/fr/"> HTML Code Couleurs	</a>
+				<a href="https://developer.mozilla.org/fr/docs/Web"> Aide Mozilla Développeur	</a>
+				<a href="https://github.com/CedricLopezCode?tab=repositories"> GitHub Cédric	</a>
+				<a href="https://github.com/mouskito?tab=repositories"> GitHub Moussa	</a>
+			</div>
+		</div>
+	</nav>
+	<nav class="nav_partie_en_cours"><!-- Les noms  ou les icones-->	
+		<a href="architecture.html">Architecture</a>
+		<a href="navbar.html">NavBar</a>
+		<a href="footer.html">Footer</a>
+		<a href="listes.html">Listes</a>
+		<a href="tableaux.html">Tableaux</a>
+		<a href="medias.html">Medias</a>
+		<a href="liens.html">Liens</a>
+		<a href="formulaires.html">Formulaires</a>
+		<a href="positions.html">Positions</a>
+		<a href="effets.html">Effets</a>
+		<a href="bootstrap.html">Boostrap</a>
+		<a href="exo_tp.html">Exo/TP</a>
+	</nav>
+	</header>
+	<h1 class="titre_page"><span>L'Architecture HTML</span></h1>
+	<div class="conteneur">
+		<h2 class="titre_section">Les Paragraphes</h2>
+		<nav>nav = barre de menu</nav>
+		<header>header = en-tête</header>
+		<footer>footer = en bas</footer>
+		<aside>aside = sur les cotés (donc pour la pub)</aside>
+		<center>center = centré</center>
+
+		<article id="nomarticle">article = Block</article> <!-- id permet de changer le css article par article -->
+		<div id="nomdeladiv">div = division = Block</div>
+		<section>Section = Block</section>
+		<p>p = paragraphe = Block + saut de ligne avant et après</p>
+
+		<data>data = inline</data> <br>
+		<span>span = inline</span> <br>
+		<datalist>liste deroulante</datalist>
+		Texte blabla: Lorem + Tab <br>
+		<data>br = Saut de ligne, Balise orpheline</data> <br> <!-- Saut de ligne Balise orpheline -->
+		<data>hr = Trait Horizontal, Balise orpheline</data> <hr> <!-- Trait Horizontal Balise orpheline -->
+	<hr>
+		<h2 class="titre_section">Les Pseudo-éléments</h2>
+		<span id="beforeafter">pseudo-éléments = before ou after</span>
+	<hr>
+		<h2 class="titre_section">Les Titres</h2>
+		<h1>H1 = Titre général à centrer avec le CSS</h1>
+		<h2>H2 = Titre de Section</h2>
+		<h3>H3 = en pratique on utilise pas en dessous de h3</h3>
+		<h4>H4</h4> <!-- en pratique on utilise pas en dessous de 3 -->
+		<h5>H5</h5>
+		<h6>H6</h6>
+	</div>
+</body>
+</html>

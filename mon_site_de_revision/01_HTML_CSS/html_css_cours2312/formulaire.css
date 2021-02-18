@@ -1,0 +1,32 @@
+body{
+	background: blue;
+	font-size: 20px;
+}
+form label{
+	
+	padding-right: 10px;
+	margin-bottom: : 100px;
+
+}
+section{
+	text-align: right;
+	margin-right: 400px;
+	margin-top: 100px;
+}
+form input{
+	position: fixed;
+	right: 10;
+	
+}
+
+.personnee{
+	margin-right: 200px;
+}
+
+.adressee{
+	margin-right: 200px;
+}
+
+.cv{
+	margin-right: 200px;
+}

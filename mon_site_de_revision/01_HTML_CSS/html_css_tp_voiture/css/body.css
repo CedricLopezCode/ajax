@@ -1,0 +1,32 @@
+
+
+.affichage_article{
+	display: inline-block;
+	border: solid 1px;
+	padding: 2px;
+	background: gold;
+	min-width: 300px;
+	max-width: 32%;
+	max-height: 400px;
+	margin-bottom: 10px;
+	vertical-align: all;
+}
+
+.affichage_article img{
+	float: top;
+	max-height: 100px;
+	margin-left: 30%;
+}
+.affichage_article table{
+	margin-left: 1px;
+	text-align: center;
+}
+.ligne{
+	display: flex;
+	width: all;
+}
+
+h1{
+	text-align: center;
+	color: blue;
+}

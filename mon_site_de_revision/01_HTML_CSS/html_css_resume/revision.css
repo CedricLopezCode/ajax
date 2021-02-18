@@ -1,0 +1,74 @@
+nav{
+	background: red;
+	text-align: center;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 20px;
+}
+nav ul li:hover{
+	background: green;
+}
+
+nav ul li a{
+	text-decoration: none; /*eliminer transformation*/
+	color: white;
+	text-transform: uppercase; /*en majusculle*/
+}
+
+nav ul li a:hover{
+	color: yellow;
+}
+
+.conteneur{
+	width: 70%;
+	background: blue;
+	margin:auto;
+	padding: 10px;
+	color: white;
+}
+
+#titres, #listes, #tableaux, #positions{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 30px;
+	font-style: italic;
+}
+
+table{
+	border: solid 3px;
+	text-align: center;
+	border-collapse: collapse;
+}
+th, td{
+	border: solid 1px;
+}
+table th{
+	background: purple;
+}
+table td{
+	background: yellow;
+	color: black;
+}
+
+.static{position: static;}
+.fixed{
+	position: fixed;
+	bottom: 0;
+}
+.relative{
+	position: relative;
+	top: 0;
+	right: 0;
+	background: yellow;
+}
+.absolue{
+	position: absolute;
+	background: grey;
+}
+.sticky{
+	position: sticky;
+	background: red;
+}

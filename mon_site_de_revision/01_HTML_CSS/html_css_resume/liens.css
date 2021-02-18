@@ -1,0 +1,24 @@
+.conteneur{
+	width: 70%;
+	background: blue;
+	margin:auto;
+	padding: 10px;
+	color: white;
+}
+
+#liens{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 30px;
+	font-style: italic;
+}
+
+.conteneur a{
+	text-decoration: none; /*pour eliminer la transformation comme la couleur des liens bleu-violet*/
+	color: yellow;
+	background: red;
+	padding: 10px;
+	margin: 10px;
+	display: inline-block;
+}

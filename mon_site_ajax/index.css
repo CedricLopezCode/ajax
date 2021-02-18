@@ -1,0 +1,175 @@
+body{
+	background: black;
+	background-image: url(../Ressources_Test/Images/triforce.png);		
+	/*background-repeat: no-repeat;*/
+	background-position: top;
+	background-size: 1111px; /*image agrandie sur toute la surface*/
+}
+
+	/*Les NavBars*/
+#nav_generale, .nav_partie_en_cours{
+	background: green;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+	max-width: all;
+	flex-wrap: wrap;
+}
+#nav_generale a, .nav_partie_en_cours a{
+	border-radius: 4px;
+}
+#nav_generale a{
+	padding: 10px;
+}
+.nav_partie_en_cours a{
+	text-decoration: none;
+	color: yellow;
+	padding: 5px;
+	font-size: 20px;
+}
+#nav_generale img{
+	padding: 0;
+	width: 100px;
+}
+#nav_generale a:hover{ 
+	background: red;
+}
+.nav_partie_en_cours a:hover{ 
+	background: lime;
+	color: blue;
+}
+	/*Menus cachés à faire apparaitre par hover*/
+.interrupteur_et_liste{
+	padding: 0 10px;
+	position: relative;
+	margin: 0;
+}
+.liste_a_faire_apparaitre{
+	display: none;
+	background: darkblue;
+	position: absolute;
+	width: 300px;
+	left: -100px;
+}
+.liste_a_faire_apparaitre a{
+	text-decoration: none;
+	color: darkorange;
+	font-weight: bold;
+	font-size: 20px;
+	margin: auto;
+}
+.interrupteur_et_liste:hover .interrupteur_liste{
+	background: red;
+}
+.interrupteur_et_liste:hover .liste_a_faire_apparaitre{
+	display: flex;
+	flex-direction: column;
+}
+.liste_a_faire_apparaitre a:hover{ 
+	background: darkcyan !important;
+}
+#corrections_moussa .liste_a_faire_apparaitre{
+	left: -190px; /*pour que ca ne sorte pas de l'écran en apparaissant*/
+} 
+	/*Les Titres de Page, de Section et de Paragraphe*/
+.titre_page{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	font-style: italic;
+} 
+	/*Les Languages et Logiciels*//*Pour le sommaire général*/
+.languages_et_logiciels{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.languages_et_logiciels a{
+	padding: 10px;
+	margin: 50px;
+}
+.languages_et_logiciels img{
+	width: 130px;
+}
+.pas_encore_etudie{
+	visibility: hidden;
+}
+.languages_et_logiciels a:hover{
+	background: aqua;
+}
+/*---------------------------------------------------------------------------------------------------*/
+	/*Les sommaires de domaine*//*Pour chaque Languages ou Logiciels*/ 
+.domaines_de_revision{
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.theme_de_revision{
+	font-size: 50px;
+	background: darkorange;
+	color: red;
+	padding: 10px 20px;
+	margin: 20px;
+}
+.liste_des_sujets{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.sujet_de_revision{
+	font-size: 30px;
+	background: yellow;
+	color: blue;
+	padding: 10px;
+	margin: 10px;
+}
+.theme_de_revision, .sujet_de_revision{
+	border-radius: 5px;
+}
+/*---------------------------------------------------------------------------------------------------*/
+	/*Pour entourer le texte*/
+.conteneur{
+	width: 90%;
+	background: blue;
+	margin:auto;
+	padding: 10px;
+	color: white;
+}
+.titre_section, .titre_paragraphe{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	font-style: italic;
+}
+.titre_page{
+	font-size: 30px;
+	color: gold; 
+	background: #000dff;
+	padding: 10px;
+}
+.titre_page span{
+	color: red;
+}
+.titre_section{
+	color: orange;
+}
+.titre_paragraphe{
+	color: yellow;
+	text-decoration: none;
+	text-align: left;
+	padding-left: 30px;
+}
+	/* Pour les pages de listes */
+.conteneur a{
+	font-size: 30px;
+	text-decoration: none;
+	color: white;
+	margin: 0 30px;
+}
+
+code{color: yellow;}
+
