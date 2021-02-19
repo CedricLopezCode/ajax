@@ -1,6 +1,6 @@
 body{
 	background-image: url(../src_ico/Terminal.ico);
-	background-size: 200px;
+	background-size: 400px;
 	/*background-size: cover;*/
 }
 .container{
@@ -40,10 +40,12 @@ body{
 
 }
 #liste_acquises, #liste_futures{
+	background-color: rgba(0, 128, 0, 0.9);
 	display: flex;
 	justify-content: space-around;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	margin: 20px 0 50px;
 }
 #liste_futures img{
 	background: white;

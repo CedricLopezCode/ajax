@@ -2,7 +2,7 @@ body{
 	background: black;
 	color: white;
 	font-size: 20px;
-	font-family: "Times New Roman";
+	font-family: "arial";
 }
 
 /*---------------------------Navbar CSS-----------------------------------*/
@@ -26,7 +26,12 @@ nav a{
 nav a img{
 	width: 30px;
 }
-
+nav a:hover{
+	text-decoration: none;
+	color: lime;
+	transition: 2s;
+	transform: scale(1.5);
+}
 .page_active{
 	background: lime;
 	color: green;
@@ -82,5 +87,11 @@ footer a{
 }
 footer a img{
 	width: 50px;
+}
+footer a:hover{
+	text-decoration: none;
+	color: lime;
+	transition: 2s;
+	transform: scale(1.2); 
 }
 /*----------------------------------------------------------------------*/
