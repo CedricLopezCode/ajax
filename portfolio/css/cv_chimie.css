@@ -3,7 +3,7 @@ body{
 	background-size: 200px;
 	/*background-size: cover;*/
 }
-.description_chimie{
+.description_chimie{ 
 	display: flex;
 	flex-direction: column;
 	align-items: center;
